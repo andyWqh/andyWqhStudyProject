@@ -1,0 +1,12 @@
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll.config
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.pdb
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\obj\Debug\ResolveAssemblyReference.cache
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.dll
+E:\PersonalFiles\andyWqhProject\HelpClassLib\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll.config
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.dll
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.csprojResolveAssemblyReference.cache

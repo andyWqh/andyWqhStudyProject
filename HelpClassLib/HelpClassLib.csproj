@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83A7B5F9-148A-4C23-81EE-3639B3E144B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HelpClassLib</RootNamespace>
+    <AssemblyName>HelpClassLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\Dapper\Dapper.1.12.1\lib\net40\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DapperExtensions">
+      <HintPath>..\Dapper\DapperExtensions.1.4.4\lib\net40\DapperExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\iTextSharp.5.5.7\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\..\..\..\WorkFile\CWPSCODE\DLLS\NPOI.OpenXmlFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\app\541680\product\11.2.0\client_1\ODP.NET\bin\2.x\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataBase\CommandEnum.cs" />
+    <Compile Include="DataBase\OraHelper.cs" />
+    <Compile Include="PDFUtil\PDFHelper.cs" />
+    <Compile Include="Web\Base64Decoder.cs" />
+    <Compile Include="Web\ChineseConvertToLetter.cs" />
+    <Compile Include="Web\Cookie.cs" />
+    <Compile Include="Web\DataCache.cs" />
+    <Compile Include="Web\EasyUI.cs" />
+    <Compile Include="Web\Email.cs" />
+    <Compile Include="Web\ExcelHelper.cs" />
+    <Compile Include="Web\HttpHelperClass.cs" />
+    <Compile Include="ImageQuantization\GrayscaleQuantizer.cs" />
+    <Compile Include="ImageQuantization\OctreeQuantizer.cs" />
+    <Compile Include="ImageQuantization\PaletteQuantizer.cs" />
+    <Compile Include="ImageQuantization\Quantizer.cs" />
+    <Compile Include="Web\Image.cs" />
+    <Compile Include="Web\JsonHelper.cs" />
+    <Compile Include="Web\JsonHelperClass.cs" />
+    <Compile Include="Web\NOPIExcel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\NpoiExcelHelper.cs" />
+    <Compile Include="Web\VerifyCode.cs" />
+    <Compile Include="Web\WebSite.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App\" />
+    <Folder Include="DataModel\" />
+    <Folder Include="Digests\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="FTPUtil\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\andyWqhModel\andyWqhModel.csproj">
+      <Project>{67cfa7f8-c201-4901-8c4c-9742b54d7ea7}</Project>
+      <Name>andyWqhModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

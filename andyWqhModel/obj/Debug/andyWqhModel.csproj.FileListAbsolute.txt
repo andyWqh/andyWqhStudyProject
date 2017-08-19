@@ -1,0 +1,5 @@
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\bin\Debug\andyWqhModel.dll
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\bin\Debug\andyWqhModel.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.dll
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.csprojResolveAssemblyReference.cache

@@ -1,0 +1,5 @@
+E:\PersonalFiles\andyWqhProject\andyWqh\DesignPatterns\bin\Debug\DesignPatterns.exe.config
+E:\PersonalFiles\andyWqhProject\andyWqh\DesignPatterns\bin\Debug\DesignPatterns.exe
+E:\PersonalFiles\andyWqhProject\andyWqh\DesignPatterns\bin\Debug\DesignPatterns.pdb
+E:\PersonalFiles\andyWqhProject\andyWqh\DesignPatterns\obj\Debug\DesignPatterns.exe
+E:\PersonalFiles\andyWqhProject\andyWqh\DesignPatterns\obj\Debug\DesignPatterns.pdb
