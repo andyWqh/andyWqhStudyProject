@@ -17,3 +17,17 @@ E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCF\bin\NPOI.OpenXml4Net.dll
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCF\bin\HelpClassLib.pdb
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCF\bin\Oracle.DataAccess.dll
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWCF\obj\Debug\andyWqhWCF.csprojResolveAssemblyReference.cache
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\andyWqhWCF.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\andyWqhWCF.pdb
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\HelpClassLib.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\Oracle.DataAccess.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\NPOI.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\NPOI.OOXML.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\Newtonsoft.Json.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\ICSharpCode.SharpZipLib.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\NPOI.OpenXmlFormats.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\NPOI.OpenXml4Net.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\HelpClassLib.pdb
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.csprojResolveAssemblyReference.cache
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.pdb
