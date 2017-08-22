@@ -9,8 +9,23 @@ namespace DesignPatterns
    public class AbstractFactoryPatterns
     {
        public void CreateJueWeiFood()
-       { 
-        
+       {
+           //赣州工厂生产鸭脖和鸭架
+           AbstractFactory ganzhouFactory = new GanZhouFactory();
+           YaBo ganzhouYaBo = ganzhouFactory.CreateYaBo();
+           ganzhouYaBo.CreateYaBo();
+           YaJia ganzhouYaJia = ganzhouFactory.CreateYaJia();
+           ganzhouYaJia.CreateYaJia();
+
+           //深圳工厂生产鸭脖和鸭架
+           AbstractFactory shenzhenFactory = new ShenZhenFactory();
+           YaBo shenzhenYaBo = shenzhenFactory.CreateYaBo();
+           shenzhenYaBo.CreateYaBo();
+           YaJia shenzhenYaJia = shenzhenFactory.CreateYaJia();
+           shenzhenFactory.CreateYaJia();
+
+           
+
        }
 
        /// <summary>
