@@ -1,0 +1,84 @@
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.CommandDefinition 生成存根: 类型是一个值类型。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.CommandFlags 生成存根: 类型是一个值类型。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.CustomPropertyTypeMap 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DataTableHandler 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DbString 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.ExplicitConstructorAttribute 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.FeatureSupport 生成存根: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SimpleMemberMap 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlDataRecordHandler 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlDataRecordListTVPParameter 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.TableValuedParameter 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.TypeExtensions 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.WrappedReader 生成存根: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XmlTypeHandler`1 生成存根: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XmlDocumentHandler 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XDocumentHandler 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XElementHandler 生成存根: 类型已密封。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.CommandFlags 生成填充码: 类型是一个枚举。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DataTableHandler 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap+<>c 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap+<>c__DisplayClass4_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap+<>c__DisplayClass8_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap+<>c__DisplayClass9_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DefaultTypeMap+<>c__DisplayClass9_1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DynamicParameters+<>c 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DynamicParameters+<>c__DisplayClass22_0`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DynamicParameters+CachedOutputSetters`1 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.DynamicParameters+ParamInfo 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.FeatureSupport 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SimpleMemberMap 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlDataRecordHandler 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlDataRecordListTVPParameter 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass101_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass107_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass109_0`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass111_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass130_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass140_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass16_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass172_0`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass90_0`8 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass91_0`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass95_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass95_1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass97_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<>c__DisplayClass99_0 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<MultiMapImpl>d__84`8 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<MultiMapImpl>d__89`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<Parse>d__168`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<Parse>d__169 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<Parse>d__170 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+<QueryImpl>d__69`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+CacheInfo 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+DapperRow 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+DapperRowMetaObject 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+DapperTable 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+DeserializerState 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+DontMap 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+GridReader+<MultiReadInternal>d__21`8 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+GridReader+<MultiReadInternal>d__22`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+GridReader+<ReadDeferred>d__30`1 生成填充码: 类型不受支持，因为存在内部限制。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+ICustomQueryParameter 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+IDynamicParameters 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+IMemberMap 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+IParameterCallbacks 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+IParameterLookup 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+ITypeHandler 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+ITypeMap 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+Link`2 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+LiteralToken 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+Row 生成填充码: 类型是一个枚举。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+TypeDeserializerCache 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.SqlMapper+TypeHandlerCache`1 生成填充码: 类型已过时。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.TableValuedParameter 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.TypeExtensions 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.IWrappedDataReader 生成填充码: 类型是一个接口。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.WrappedReader 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XmlTypeHandler`1 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XmlDocumentHandler 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XDocumentHandler 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
+E:\andyWqhProject\HelpClassLib\Fakes\Dapper.fakes : warning : 无法为 Dapper.XElementHandler 生成填充码: 类型对 exported or assembly(Dapper.Fakes) 不可见。
