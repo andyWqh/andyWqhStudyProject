@@ -49,4 +49,3 @@ E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\Dapper.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\obj\Debug\andyWqhWeb.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\obj\Debug\andyWqhWeb.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\obj\Debug\andyWqhWeb.pdb
-E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhWeb.dll.config

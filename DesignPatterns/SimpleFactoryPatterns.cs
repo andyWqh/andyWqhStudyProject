@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace DesignPatterns
 {
     /// <summary>
-    /// 客户点餐简单工厂模式案例
+    /// 客户点餐
     /// </summary>
     public class Customer 
     {

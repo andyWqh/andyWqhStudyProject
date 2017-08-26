@@ -31,4 +31,3 @@ E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\HelpClassLib.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhWCF\obj\Debug\andyWqhWCF.pdb
-E:\andyWqh\andyWqhStudyProject\andyWqhWCF\bin\andyWqhWCF.dll.config
