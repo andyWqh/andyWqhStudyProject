@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns
 {
+    /// <summary>
+    /// 抽象工厂模式案例
+    /// </summary>
    public class AbstractFactoryPatterns
     {
        public void CreateJueWeiFood()
