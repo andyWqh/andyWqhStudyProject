@@ -6,18 +6,24 @@ using System.Web.Mvc;
 
 namespace andyWqhMVC.Controllers
 {
-    [HandleError]
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "欢迎使用 ASP.NET MVC!";
-
             return View();
         }
 
         public ActionResult About()
         {
+            ViewBag.Message = "Your application description page.";
+
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
             return View();
         }
     }

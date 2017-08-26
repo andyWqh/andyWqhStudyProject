@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("应用程序名称", "Index", "Home", null, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("主页", "Index", "Home")</li>
+                    <li>@Html.ActionLink("关于", "About", "Home")</li>
+                    <li>@Html.ActionLink("联系方式", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+<div class="container body-content">
+    @RenderBody()
+    <hr />
+    <footer>
+        <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+    </footer>
+</div>
+<div>
+    <!-- 单行语句块 -->
+    @{ var total = 7; }
+    @{ var myMessage = "Hello World"; }
+    <!-- 内联表达式 -->
+    <p>The value of your account is: @total </p>
+    <p>The value of myMessage is: @myMessage</p>
+    <!-- 多行语句块 -->
+    @{
+        var greeting = "Welcome to our site!";
+        var weekDay = DateTime.Now.DayOfWeek; var greetingMessage = greeting + " Today is: " + weekDay;
+    }
+    <p>The greeting is: @greetingMessage</p>
+    
+    @{
+        string[] teamMembers = { "Matt", "Joanne", "Robert", "Nancy" };
+        <p>The number of names in the teamMembers array: @teamMembers.Length </p>
+        <p>Robert is now in position: @Array.IndexOf(teamMembers, "Robert")</p>
+        <p>The array item at position 2 (zero-based) is @teamMembers[2]</p>
+        <h3>Current order of team members in the list</h3>
+        foreach (var name in teamMembers)
+        {
+            <p>@name</p>
+        }
+        <h3>Reversed order of team members in the list</h3>
+        Array.Reverse(teamMembers);
+        foreach (var reversedItem in teamMembers)
+        {
+            <p>@reversedItem</p>
+        }
+    }
+</div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
