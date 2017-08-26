@@ -76,6 +76,7 @@ E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\andyWqhMVC.dll.config
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\andyWqhMVC.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\andyWqhMVC.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\Antlr3.Runtime.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\Autofac.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\EntityFramework.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\EntityFramework.SqlServer.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\Microsoft.AspNet.Identity.Core.dll
@@ -101,6 +102,7 @@ E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.WebPages.Deployment.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.WebPages.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.WebPages.Razor.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\WebGrease.dll
+E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\Autofac.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.Helpers.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.Mvc.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\System.Web.Optimization.xml
