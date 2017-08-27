@@ -26,6 +26,7 @@ E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWeb\bin\Dapper.pdb
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWeb\bin\Dapper.xml
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWeb\bin\Oracle.DataAccess.dll
 E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhWeb\obj\Debug\andyWqhWeb.csprojResolveAssemblyReference.cache
+E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhWeb.dll.config
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhWeb.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhWeb.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhBLL.dll
@@ -44,6 +45,8 @@ E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhBLL.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhModel.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\HelpClassLib.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\andyWqhDAL.pdb
+E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\NPOI.xml
+E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\Newtonsoft.Json.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\Dapper.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\bin\Dapper.xml
 E:\andyWqh\andyWqhStudyProject\andyWqhWeb\obj\Debug\andyWqhWeb.csprojResolveAssemblyReference.cache

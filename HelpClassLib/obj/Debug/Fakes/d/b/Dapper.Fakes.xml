@@ -1,0 +1,1460 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapper.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Dapper.Fakes.ShimCommandDefinition">
+            <summary>Dapper.CommandDefinition 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCommandDefinition.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCommandDefinition.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCommandDefinition.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCommandDefinition.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCommandDefinition.ForCallbackObject">
+            <summary>设置 CommandDefinition.ForCallback(Object parameters) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCommandDefinition.GetBasicPropertySetterTypeStringType">
+            <summary>设置 CommandDefinition.GetBasicPropertySetter(Type declaringType, String name, Type expectedType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCommandDefinition.GetInitType">
+            <summary>设置 CommandDefinition.GetInit(Type commandType) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimCommandDefinition.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimCustomPropertyTypeMap">
+            <summary>Dapper.CustomPropertyTypeMap 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCustomPropertyTypeMap.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCustomPropertyTypeMap.#ctor(Dapper.CustomPropertyTypeMap)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCustomPropertyTypeMap.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCustomPropertyTypeMap.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimCustomPropertyTypeMap.Bind(Dapper.SqlMapper.ITypeMap)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.ConstructorTypeFuncOfTypeStringPropertyInfo">
+            <summary>设置 CustomPropertyTypeMap.CustomPropertyTypeMap(Type type, Func`3&lt;Type,String,PropertyInfo&gt; propertySelector) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.FindConstructorStringArrayTypeArray">
+            <summary>设置 CustomPropertyTypeMap.FindConstructor(String[] names, Type[] types) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.FindExplicitConstructor">
+            <summary>设置 CustomPropertyTypeMap.FindExplicitConstructor() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.GetConstructorParameterConstructorInfoString">
+            <summary>设置 CustomPropertyTypeMap.GetConstructorParameter(ConstructorInfo constructor, String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.GetMemberString">
+            <summary>设置 CustomPropertyTypeMap.GetMember(String columnName) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimCustomPropertyTypeMap.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.AllInstances.FindConstructorStringArrayTypeArray">
+            <summary>设置 CustomPropertyTypeMap.FindConstructor(String[] names, Type[] types) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.AllInstances.FindExplicitConstructor">
+            <summary>设置 CustomPropertyTypeMap.FindExplicitConstructor() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.AllInstances.GetConstructorParameterConstructorInfoString">
+            <summary>设置 CustomPropertyTypeMap.GetConstructorParameter(ConstructorInfo constructor, String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimCustomPropertyTypeMap.AllInstances.GetMemberString">
+            <summary>设置 CustomPropertyTypeMap.GetMember(String columnName) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDbString">
+            <summary>Dapper.DbString 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDbString.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDbString.#ctor(Dapper.DbString)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDbString.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDbString.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDbString.Bind(Dapper.SqlMapper.ICustomQueryParameter)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AddParameterIDbCommandString">
+            <summary>设置 DbString.AddParameter(IDbCommand command, String name) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.Constructor">
+            <summary>设置 DbString.DbString() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsAnsiDefaultGet">
+            <summary>设置 DbString.get_IsAnsiDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsAnsiDefaultSetBoolean">
+            <summary>设置 DbString.set_IsAnsiDefault(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsAnsiGet">
+            <summary>设置 DbString.get_IsAnsi() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsAnsiSetBoolean">
+            <summary>设置 DbString.set_IsAnsi(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsFixedLengthGet">
+            <summary>设置 DbString.get_IsFixedLength() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.IsFixedLengthSetBoolean">
+            <summary>设置 DbString.set_IsFixedLength(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.LengthGet">
+            <summary>设置 DbString.get_Length() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.LengthSetInt32">
+            <summary>设置 DbString.set_Length(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.ValueGet">
+            <summary>设置 DbString.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.ValueSetString">
+            <summary>设置 DbString.set_Value(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDbString.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.AddParameterIDbCommandString">
+            <summary>设置 DbString.AddParameter(IDbCommand command, String name) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.IsAnsiGet">
+            <summary>设置 DbString.get_IsAnsi() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.IsAnsiSetBoolean">
+            <summary>设置 DbString.set_IsAnsi(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.IsFixedLengthGet">
+            <summary>设置 DbString.get_IsFixedLength() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.IsFixedLengthSetBoolean">
+            <summary>设置 DbString.set_IsFixedLength(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.LengthGet">
+            <summary>设置 DbString.get_Length() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.LengthSetInt32">
+            <summary>设置 DbString.set_Length(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.ValueGet">
+            <summary>设置 DbString.get_Value() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDbString.AllInstances.ValueSetString">
+            <summary>设置 DbString.set_Value(String value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDefaultTypeMap">
+            <summary>Dapper.DefaultTypeMap 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDefaultTypeMap.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDefaultTypeMap.#ctor(Dapper.DefaultTypeMap)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDefaultTypeMap.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDefaultTypeMap.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDefaultTypeMap.Bind(Dapper.SqlMapper.ITypeMap)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.ConstructorType">
+            <summary>设置 DefaultTypeMap.DefaultTypeMap(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.FindConstructorStringArrayTypeArray">
+            <summary>设置 DefaultTypeMap.FindConstructor(String[] names, Type[] types) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.FindExplicitConstructor">
+            <summary>设置 DefaultTypeMap.FindExplicitConstructor() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.GetConstructorParameterConstructorInfoString">
+            <summary>设置 DefaultTypeMap.GetConstructorParameter(ConstructorInfo constructor, String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.GetMemberString">
+            <summary>设置 DefaultTypeMap.GetMember(String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.GetPropertySetterPropertyInfoType">
+            <summary>设置 DefaultTypeMap.GetPropertySetter(PropertyInfo propertyInfo, Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.GetSettableFieldsType">
+            <summary>设置 DefaultTypeMap.GetSettableFields(Type t) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.GetSettablePropsType">
+            <summary>设置 DefaultTypeMap.GetSettableProps(Type t) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.MatchNamesWithUnderscoresGet">
+            <summary>设置 DefaultTypeMap.get_MatchNamesWithUnderscores() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.MatchNamesWithUnderscoresSetBoolean">
+            <summary>设置 DefaultTypeMap.set_MatchNamesWithUnderscores(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.PropertiesGet">
+            <summary>设置 DefaultTypeMap.get_Properties() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDefaultTypeMap.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.AllInstances.FindConstructorStringArrayTypeArray">
+            <summary>设置 DefaultTypeMap.FindConstructor(String[] names, Type[] types) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.AllInstances.FindExplicitConstructor">
+            <summary>设置 DefaultTypeMap.FindExplicitConstructor() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.AllInstances.GetConstructorParameterConstructorInfoString">
+            <summary>设置 DefaultTypeMap.GetConstructorParameter(ConstructorInfo constructor, String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.AllInstances.GetMemberString">
+            <summary>设置 DefaultTypeMap.GetMember(String columnName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDefaultTypeMap.AllInstances.PropertiesGet">
+            <summary>设置 DefaultTypeMap.get_Properties() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDynamicParameters">
+            <summary>Dapper.DynamicParameters 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.#ctor(Dapper.DynamicParameters)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.Bind(Dapper.SqlMapper.IDynamicParameters)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.Bind(Dapper.SqlMapper.IParameterCallbacks)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.Bind(Dapper.SqlMapper.IParameterLookup)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.GetOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,``0})">
+            <summary>设置 DynamicParameters.Get(String name) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.OutputOf1M0ExpressionOfFuncOfM0ObjectNullableOfDbTypeNullableOfInt32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Nullable{System.Data.DbType},System.Nullable{System.Int32},Dapper.DynamicParameters})">
+            <summary>设置 DynamicParameters.Output(!!0 target, Expression`1&lt;Func`2&lt;!!0,Object&gt;&gt; expression, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;Int32&gt; size) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AddDynamicParamsObject">
+            <summary>设置 DynamicParameters.AddDynamicParams(Object param) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AddParametersIDbCommandSqlMapperIdentity">
+            <summary>设置 DynamicParameters.AddParameters(IDbCommand command, Identity identity) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AddStringObjectNullableOfDbTypeNullableOfParameterDirectionNullableOfInt32">
+            <summary>设置 DynamicParameters.Add(String name, Object value, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;ParameterDirection&gt; direction, Nullable`1&lt;Int32&gt; size) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AddStringObjectNullableOfDbTypeNullableOfParameterDirectionNullableOfInt32NullableOfByteNullableOfByte">
+            <summary>设置 DynamicParameters.Add(String name, Object value, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;ParameterDirection&gt; direction, Nullable`1&lt;Int32&gt; size, Nullable`1&lt;Byte&gt; precision, Nullable`1&lt;Byte&gt; scale) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.CleanString">
+            <summary>设置 DynamicParameters.Clean(String name) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.Constructor">
+            <summary>设置 DynamicParameters.DynamicParameters() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.ConstructorObject">
+            <summary>设置 DynamicParameters.DynamicParameters(Object template) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.DapperSqlMapperIDynamicParametersAddParametersIDbCommandSqlMapperIdentity">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.DapperSqlMapperIParameterCallbacksOnCompleted">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IParameterCallbacks.OnCompleted() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.ItemDapperSqlMapperIParameterLookupgetString">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IParameterLookup.get_Item(String member) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.ParameterNamesGet">
+            <summary>设置 DynamicParameters.get_ParameterNames() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.RemoveUnusedGet">
+            <summary>设置 DynamicParameters.get_RemoveUnused() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.RemoveUnusedSetBoolean">
+            <summary>设置 DynamicParameters.set_RemoveUnused(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.StaticConstructor">
+            <summary>设置 DynamicParameters.DynamicParameters() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimDynamicParameters.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.AllInstances.GetOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.DynamicParameters,System.String,``0})">
+            <summary>设置 DynamicParameters.Get(String name) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimDynamicParameters.AllInstances.OutputOf1M0ExpressionOfFuncOfM0ObjectNullableOfDbTypeNullableOfInt32``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.DynamicParameters,``0,System.Linq.Expressions.Expression{System.Func{``0,System.Object}},System.Nullable{System.Data.DbType},System.Nullable{System.Int32},Dapper.DynamicParameters})">
+            <summary>设置 DynamicParameters.Output(!!0 target, Expression`1&lt;Func`2&lt;!!0,Object&gt;&gt; expression, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;Int32&gt; size) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.AddDynamicParamsObject">
+            <summary>设置 DynamicParameters.AddDynamicParams(Object param) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.AddParametersIDbCommandSqlMapperIdentity">
+            <summary>设置 DynamicParameters.AddParameters(IDbCommand command, Identity identity) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.AddStringObjectNullableOfDbTypeNullableOfParameterDirectionNullableOfInt32">
+            <summary>设置 DynamicParameters.Add(String name, Object value, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;ParameterDirection&gt; direction, Nullable`1&lt;Int32&gt; size) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.AddStringObjectNullableOfDbTypeNullableOfParameterDirectionNullableOfInt32NullableOfByteNullableOfByte">
+            <summary>设置 DynamicParameters.Add(String name, Object value, Nullable`1&lt;DbType&gt; dbType, Nullable`1&lt;ParameterDirection&gt; direction, Nullable`1&lt;Int32&gt; size, Nullable`1&lt;Byte&gt; precision, Nullable`1&lt;Byte&gt; scale) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.DapperSqlMapperIDynamicParametersAddParametersIDbCommandSqlMapperIdentity">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IDynamicParameters.AddParameters(IDbCommand command, Identity identity) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.DapperSqlMapperIParameterCallbacksOnCompleted">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IParameterCallbacks.OnCompleted() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.ItemDapperSqlMapperIParameterLookupgetString">
+            <summary>设置 DynamicParameters.Dapper.SqlMapper.IParameterLookup.get_Item(String member) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.ParameterNamesGet">
+            <summary>设置 DynamicParameters.get_ParameterNames() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.RemoveUnusedGet">
+            <summary>设置 DynamicParameters.get_RemoveUnused() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimDynamicParameters.AllInstances.RemoveUnusedSetBoolean">
+            <summary>设置 DynamicParameters.set_RemoveUnused(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimExplicitConstructorAttribute">
+            <summary>Dapper.ExplicitConstructorAttribute 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimExplicitConstructorAttribute.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimExplicitConstructorAttribute.#ctor(Dapper.ExplicitConstructorAttribute)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimExplicitConstructorAttribute.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimExplicitConstructorAttribute.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimExplicitConstructorAttribute.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimExplicitConstructorAttribute.Constructor">
+            <summary>设置 ExplicitConstructorAttribute.ExplicitConstructorAttribute() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimExplicitConstructorAttribute.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper">
+            <summary>Dapper.SqlMapper 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.AddTypeHandlerOf1SqlMapperTypeHandlerOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Action{Dapper.SqlMapper.TypeHandler{``0}})">
+            <summary>设置 SqlMapper.AddTypeHandler(TypeHandler`1&lt;!!0&gt; handler) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.AsListOf1IEnumerableOfM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.List{``0}})">
+            <summary>设置 SqlMapper.AsList(IEnumerable`1&lt;!!0&gt; source) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ExecuteScalarImplOf1IDbConnectionCommandDefinitionRef``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.RefFunc{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.ExecuteScalarImpl(IDbConnection cnn, CommandDefinition&amp; command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ExecuteScalarOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.ExecuteScalar(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ExecuteScalarOf1IDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},``0})">
+            <summary>设置 SqlMapper.ExecuteScalar(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.GenerateMapperOf1Int32FuncOfIDataReaderObjectFuncOfIDataReaderObjectArrayFuncOfObjectArrayM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Int32,System.Func{System.Data.IDataReader,System.Object},System.Func{System.Data.IDataReader,System.Object}[],System.Func{System.Object[],``0},System.Func{System.Data.IDataReader,``0}})">
+            <summary>设置 SqlMapper.GenerateMapper(Int32 length, Func`2&lt;IDataReader,Object&gt; deserializer, Func`2&lt;IDataReader,Object&gt;[] otherDeserializers, Func`2&lt;Object[],!!0&gt; map) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.GenerateMapperOf8FuncOfIDataReaderObjectFuncOfIDataReaderObjectArrayObject``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{System.Data.IDataReader,System.Object},System.Func{System.Data.IDataReader,System.Object}[],System.Object,System.Func{System.Data.IDataReader,``7}})">
+            <summary>设置 SqlMapper.GenerateMapper(Func`2&lt;IDataReader,Object&gt; deserializer, Func`2&lt;IDataReader,Object&gt;[] otherDeserializers, Object map) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.GetRowParserOf1IDataReaderTypeInt32Int32Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDataReader,System.Type,System.Int32,System.Int32,System.Boolean,System.Func{System.Data.IDataReader,``0}})">
+            <summary>设置 SqlMapper.GetRowParser(IDataReader reader, Type concreteType, Int32 startIndex, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.MultiMapImplOf1IDbConnectionCommandDefinitionTypeArrayFuncOfObjectArrayM0StringIDataReaderSqlMapperIdentityBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,System.Type[],System.Func{System.Object[],``0},System.String,System.Data.IDataReader,Dapper.SqlMapper.Identity,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.MultiMapImpl(IDbConnection cnn, CommandDefinition command, Type[] types, Func`2&lt;Object[],!!0&gt; map, String splitOn, IDataReader reader, Identity identity, Boolean finalize) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.MultiMapImplOf8IDbConnectionCommandDefinitionDelegateStringIDataReaderSqlMapperIdentityBoolean``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,System.Delegate,System.String,System.Data.IDataReader,Dapper.SqlMapper.Identity,System.Boolean,System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 SqlMapper.MultiMapImpl(IDbConnection cnn, CommandDefinition command, Delegate map, String splitOn, IDataReader reader, Identity identity, Boolean finalize) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.MultiMapOf8IDbConnectionStringDelegateObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Delegate,System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 SqlMapper.MultiMap(IDbConnection cnn, String sql, Delegate map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ParseOf1IDataReader``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDataReader,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.Parse(IDataReader reader) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ParseOf1Object``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,``0})">
+            <summary>设置 SqlMapper.Parse(Object value) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryFirstOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.QueryFirst(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryFirstOf1IDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},``0})">
+            <summary>设置 SqlMapper.QueryFirst(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryFirstOrDefaultOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.QueryFirstOrDefault(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryFirstOrDefaultOf1IDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},``0})">
+            <summary>设置 SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryImplOf1IDbConnectionCommandDefinitionType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,System.Type,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.QueryImpl(IDbConnection cnn, CommandDefinition command, Type effectiveType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf1IDbConnectionStringObjectIDbTransactionBooleanNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Boolean,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf1IDbConnectionStringTypeArrayFuncOfObjectArrayM0ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Type[],System.Func{System.Object[],``0},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Type[] types, Func`2&lt;Object[],!!0&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf3IDbConnectionStringFuncOfM0M1M2ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``3(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``2}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`3&lt;!!0,!!1,!!2&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf4IDbConnectionStringFuncOfM0M1M2M3ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``4(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2,``3},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``3}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`4&lt;!!0,!!1,!!2,!!3&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf5IDbConnectionStringFuncOfM0M1M2M3M4ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``5(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2,``3,``4},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``4}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`5&lt;!!0,!!1,!!2,!!3,!!4&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf6IDbConnectionStringFuncOfM0M1M2M3M4M5ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``6(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2,``3,``4,``5},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``5}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`6&lt;!!0,!!1,!!2,!!3,!!4,!!5&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf7IDbConnectionStringFuncOfM0M1M2M3M4M5M6ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``7(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2,``3,``4,``5,``6},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``6}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`7&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QueryOf8IDbConnectionStringFuncOfM0M1M2M3M4M5M6M7ObjectIDbTransactionBooleanStringNullableOfInt32NullableOfCommandType``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.Object,System.Data.IDbTransaction,System.Boolean,System.String,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Func`8&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6,!!7&gt; map, Object param, IDbTransaction transaction, Boolean buffered, String splitOn, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QuerySingleOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.QuerySingle(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QuerySingleOf1IDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},``0})">
+            <summary>设置 SqlMapper.QuerySingle(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QuerySingleOrDefaultOf1IDbConnectionCommandDefinition``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,Dapper.CommandDefinition,``0})">
+            <summary>设置 SqlMapper.QuerySingleOrDefault(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.QuerySingleOrDefaultOf1IDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Data.IDbConnection,System.String,System.Object,System.Data.IDbTransaction,System.Nullable{System.Int32},System.Nullable{System.Data.CommandType},``0})">
+            <summary>设置 SqlMapper.QuerySingleOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.TryStringSplitOf1IEnumerableRefInt32StringIDbCommandStringBooleanActionOfStringBuilderM0``1(Microsoft.QualityTools.Testing.Fakes.Delegates.DapperDelegates.Ref0Func8{System.Collections.IEnumerable,System.Int32,System.String,System.Data.IDbCommand,System.String,System.Boolean,System.Action{System.Text.StringBuilder,``0},System.Boolean})">
+            <summary>设置 SqlMapper.TryStringSplit(IEnumerable&amp; list, Int32 splitAt, String namePrefix, IDbCommand command, String colType, Boolean byPosition, Action`2&lt;StringBuilder,!!0&gt; append) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AddSqlDataRecordsTypeHandlerBoolean">
+            <summary>设置 SqlMapper.AddSqlDataRecordsTypeHandler(Boolean clone) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AddTypeHandlerImplTypeSqlMapperITypeHandlerBoolean">
+            <summary>设置 SqlMapper.AddTypeHandlerImpl(Type type, ITypeHandler handler, Boolean clone) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AddTypeHandlerTypeSqlMapperITypeHandler">
+            <summary>设置 SqlMapper.AddTypeHandler(Type type, ITypeHandler handler) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AddTypeMapTypeDbType">
+            <summary>设置 SqlMapper.AddTypeMap(Type type, DbType dbType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AsTableValuedParameterDataTableString">
+            <summary>设置 SqlMapper.AsTableValuedParameter(DataTable table, String typeName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.AsTableValuedParameterIEnumerableOfSqlDataRecordString">
+            <summary>设置 SqlMapper.AsTableValuedParameter(IEnumerable`1&lt;SqlDataRecord&gt; list, String typeName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.CollectCacheGarbage">
+            <summary>设置 SqlMapper.CollectCacheGarbage() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ConnectionStringComparerGet">
+            <summary>设置 SqlMapper.get_ConnectionStringComparer() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ConnectionStringComparerSetIEqualityComparerOfString">
+            <summary>设置 SqlMapper.set_ConnectionStringComparer(IEqualityComparer`1&lt;String&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.CreateParamInfoGeneratorSqlMapperIdentityBooleanBoolean">
+            <summary>设置 SqlMapper.CreateParamInfoGenerator(Identity identity, Boolean checkForDuplicates, Boolean removeUnused) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.DisableCommandBehaviorOptimizationsCommandBehaviorException">
+            <summary>设置 SqlMapper.DisableCommandBehaviorOptimizations(CommandBehavior behavior, Exception ex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.EmitInt32ILGeneratorInt32">
+            <summary>设置 SqlMapper.EmitInt32(ILGenerator il, Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteCommandIDbConnectionCommandDefinitionRefActionOfIDbCommandObject">
+            <summary>设置 SqlMapper.ExecuteCommand(IDbConnection cnn, CommandDefinition&amp; command, Action`2&lt;IDbCommand,Object&gt; paramReader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteIDbConnectionCommandDefinition">
+            <summary>设置 SqlMapper.Execute(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.Execute(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteImplIDbConnectionCommandDefinitionRef">
+            <summary>设置 SqlMapper.ExecuteImpl(IDbConnection cnn, CommandDefinition&amp; command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteReaderIDbConnectionCommandDefinition">
+            <summary>设置 SqlMapper.ExecuteReader(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteReaderIDbConnectionCommandDefinitionCommandBehavior">
+            <summary>设置 SqlMapper.ExecuteReader(IDbConnection cnn, CommandDefinition command, CommandBehavior commandBehavior) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteReaderIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.ExecuteReader(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteReaderImplIDbConnectionCommandDefinitionRefCommandBehaviorIDbCommandOut">
+            <summary>设置 SqlMapper.ExecuteReaderImpl(IDbConnection cnn, CommandDefinition&amp; command, CommandBehavior commandBehavior, IDbCommand&amp; cmd) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteReaderWithFlagsFallbackIDbCommandBooleanCommandBehavior">
+            <summary>设置 SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteScalarIDbConnectionCommandDefinition">
+            <summary>设置 SqlMapper.ExecuteScalar(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ExecuteScalarIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.ExecuteScalar(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.FilterParametersIEnumerableOfPropertyInfoString">
+            <summary>设置 SqlMapper.FilterParameters(IEnumerable`1&lt;PropertyInfo&gt; parameters, String sql) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.FindOrAddParameterIDataParameterCollectionIDbCommandString">
+            <summary>设置 SqlMapper.FindOrAddParameter(IDataParameterCollection parameters, IDbCommand command, String name) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.FlexibleConvertBoxedFromHeadOfStackILGeneratorTypeTypeType">
+            <summary>设置 SqlMapper.FlexibleConvertBoxedFromHeadOfStack(ILGenerator il, Type from, Type to, Type via) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.FormatObject">
+            <summary>设置 SqlMapper.Format(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GenerateDeserializersTypeArrayStringIDataReader">
+            <summary>设置 SqlMapper.GenerateDeserializers(Type[] types, String splitOn, IDataReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetBehaviorBooleanCommandBehavior">
+            <summary>设置 SqlMapper.GetBehavior(Boolean close, CommandBehavior default) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetCachedSQLCount">
+            <summary>设置 SqlMapper.GetCachedSQLCount() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetCachedSQLInt32">
+            <summary>设置 SqlMapper.GetCachedSQL(Int32 ignoreHitCountAbove) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetColumnHashIDataReaderInt32Int32">
+            <summary>设置 SqlMapper.GetColumnHash(IDataReader reader, Int32 startBound, Int32 length) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetDapperRowDeserializerIDataRecordInt32Int32Boolean">
+            <summary>设置 SqlMapper.GetDapperRowDeserializer(IDataRecord reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetDbTypeObject">
+            <summary>设置 SqlMapper.GetDbType(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetDeserializerTypeIDataReaderInt32Int32Boolean">
+            <summary>设置 SqlMapper.GetDeserializer(Type type, IDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetHandlerDeserializerSqlMapperITypeHandlerTypeInt32">
+            <summary>设置 SqlMapper.GetHandlerDeserializer(ITypeHandler handler, Type type, Int32 startBound) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetHashCollissions">
+            <summary>设置 SqlMapper.GetHashCollissions() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetInListRegexStringBoolean">
+            <summary>设置 SqlMapper.GetInListRegex(String name, Boolean byPosition) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetListPaddingExtraCountInt32">
+            <summary>设置 SqlMapper.GetListPaddingExtraCount(Int32 count) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetMultiExecObject">
+            <summary>设置 SqlMapper.GetMultiExec(Object param) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetNextSplitDynamicInt32StringIDataReader">
+            <summary>设置 SqlMapper.GetNextSplitDynamic(Int32 startIdx, String splitOn, IDataReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetNextSplitInt32StringIDataReader">
+            <summary>设置 SqlMapper.GetNextSplit(Int32 startIdx, String splitOn, IDataReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetOperatorTypeType">
+            <summary>设置 SqlMapper.GetOperator(Type from, Type to) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetParameterReaderIDbConnectionCommandDefinitionRef">
+            <summary>设置 SqlMapper.GetParameterReader(IDbConnection cnn, CommandDefinition&amp; command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetRowParserIDataReaderTypeInt32Int32Boolean">
+            <summary>设置 SqlMapper.GetRowParser(IDataReader reader, Type type, Int32 startIndex, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetStringBuilder">
+            <summary>设置 SqlMapper.GetStringBuilder() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetStructDeserializerTypeTypeInt32">
+            <summary>设置 SqlMapper.GetStructDeserializer(Type type, Type effectiveType, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetTempLocalILGeneratorDictionaryOfTypeLocalBuilderRefTypeBoolean">
+            <summary>设置 SqlMapper.GetTempLocal(ILGenerator il, Dictionary`2&lt;Type,LocalBuilder&gt;&amp; locals, Type type, Boolean initAndLoad) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetToStringTypeCode">
+            <summary>设置 SqlMapper.GetToString(TypeCode typeCode) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetTypeDeserializerImplTypeIDataReaderInt32Int32Boolean">
+            <summary>设置 SqlMapper.GetTypeDeserializerImpl(Type type, IDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetTypeDeserializerTypeIDataReaderInt32Int32Boolean">
+            <summary>设置 SqlMapper.GetTypeDeserializer(Type type, IDataReader reader, Int32 startBound, Int32 length, Boolean returnNullIfFirstMissing) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetTypeMapType">
+            <summary>设置 SqlMapper.GetTypeMap(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.GetTypeNameDataTable">
+            <summary>设置 SqlMapper.GetTypeName(DataTable table) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.HasTypeHandlerType">
+            <summary>设置 SqlMapper.HasTypeHandler(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.LoadLocalAddressILGeneratorInt32">
+            <summary>设置 SqlMapper.LoadLocalAddress(ILGenerator il, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.LoadLocalILGeneratorInt32">
+            <summary>设置 SqlMapper.LoadLocal(ILGenerator il, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.LookupDbTypeTypeStringBooleanSqlMapperITypeHandlerOut">
+            <summary>设置 SqlMapper.LookupDbType(Type type, String name, Boolean demand, ITypeHandler&amp; handler) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.MultiMapExceptionIDataRecord">
+            <summary>设置 SqlMapper.MultiMapException(IDataRecord reader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.OnQueryCachePurged">
+            <summary>设置 SqlMapper.OnQueryCachePurged() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.PackListParametersIDbCommandStringObject">
+            <summary>设置 SqlMapper.PackListParameters(IDbCommand command, String namePrefix, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ParseIDataReader">
+            <summary>设置 SqlMapper.Parse(IDataReader reader) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ParseIDataReaderType">
+            <summary>设置 SqlMapper.Parse(IDataReader reader, Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.PassByPositionIDbCommand">
+            <summary>设置 SqlMapper.PassByPosition(IDbCommand cmd) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.PurgeQueryCache">
+            <summary>设置 SqlMapper.PurgeQueryCache() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.PurgeQueryCacheByTypeType">
+            <summary>设置 SqlMapper.PurgeQueryCacheByType(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryCachePurgedAddEventHandler">
+            <summary>设置 SqlMapper.add_QueryCachePurged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryCachePurgedRemoveEventHandler">
+            <summary>设置 SqlMapper.remove_QueryCachePurged(EventHandler value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryFirstIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QueryFirst(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryFirstIDbConnectionTypeStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QueryFirst(IDbConnection cnn, Type type, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryFirstOrDefaultIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QueryFirstOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryFirstOrDefaultIDbConnectionTypeStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QueryFirstOrDefault(IDbConnection cnn, Type type, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryIDbConnectionStringObjectIDbTransactionBooleanNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryIDbConnectionTypeStringObjectIDbTransactionBooleanNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.Query(IDbConnection cnn, Type type, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryMultipleIDbConnectionCommandDefinition">
+            <summary>设置 SqlMapper.QueryMultiple(IDbConnection cnn, CommandDefinition command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryMultipleIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QueryMultiple(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QueryMultipleImplIDbConnectionCommandDefinitionRef">
+            <summary>设置 SqlMapper.QueryMultipleImpl(IDbConnection cnn, CommandDefinition&amp; command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QuerySingleIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QuerySingle(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QuerySingleIDbConnectionTypeStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QuerySingle(IDbConnection cnn, Type type, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QuerySingleOrDefaultIDbConnectionStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QuerySingleOrDefault(IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.QuerySingleOrDefaultIDbConnectionTypeStringObjectIDbTransactionNullableOfInt32NullableOfCommandType">
+            <summary>设置 SqlMapper.QuerySingleOrDefault(IDbConnection cnn, Type type, String sql, Object param, IDbTransaction transaction, Nullable`1&lt;Int32&gt; commandTimeout, Nullable`1&lt;CommandType&gt; commandType) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ReadCharObject">
+            <summary>设置 SqlMapper.ReadChar(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ReadNullableCharObject">
+            <summary>设置 SqlMapper.ReadNullableChar(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ReplaceLiteralsSqlMapperIParameterLookupIDbCommand">
+            <summary>设置 SqlMapper.ReplaceLiterals(IParameterLookup parameters, IDbCommand command) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ResetTypeHandlers">
+            <summary>设置 SqlMapper.ResetTypeHandlers() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ResetTypeHandlersBoolean">
+            <summary>设置 SqlMapper.ResetTypeHandlers(Boolean clone) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ResolveOperatorMethodInfoArrayTypeTypeString">
+            <summary>设置 SqlMapper.ResolveOperator(MethodInfo[] methods, Type from, Type to, String name) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.SanitizeParameterValueObject">
+            <summary>设置 SqlMapper.SanitizeParameterValue(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.SetTypeMapTypeSqlMapperITypeMap">
+            <summary>设置 SqlMapper.SetTypeMap(Type type, ITypeMap map) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.SetTypeNameDataTableString">
+            <summary>设置 SqlMapper.SetTypeName(DataTable table, String typeName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShouldPassByPositionString">
+            <summary>设置 SqlMapper.ShouldPassByPosition(String sql) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.StaticConstructor">
+            <summary>设置 SqlMapper.SqlMapper() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.StoreLocalILGeneratorInt32">
+            <summary>设置 SqlMapper.StoreLocal(ILGenerator il, Int32 index) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ThrowDataExceptionExceptionInt32IDataReaderObject">
+            <summary>设置 SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.TryStringSplitIEnumerableRefInt32StringIDbCommandBoolean">
+            <summary>设置 SqlMapper.TryStringSplit(IEnumerable&amp; list, Int32 splitAt, String namePrefix, IDbCommand command, Boolean byPosition) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.__ToStringRecycleStringBuilder">
+            <summary>设置 SqlMapper.__ToStringRecycle(StringBuilder obj) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimGridReader">
+            <summary>Dapper.SqlMapper+GridReader 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.#ctor(Dapper.SqlMapper.GridReader)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.Bind(System.IDisposable)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.MultiReadInternalOf1TypeArrayFuncOfObjectArrayM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Type[],System.Func{System.Object[],``0},System.String,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.MultiReadInternal(Type[] types, Func`2&lt;Object[],!!0&gt; map, String splitOn) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.MultiReadInternalOf8DelegateString``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Delegate,System.String,System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 GridReader.MultiReadInternal(Delegate func, String splitOn) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadDeferredOf1Int32FuncOfIDataReaderObjectSqlMapperIdentityType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Int32,System.Func{System.Data.IDataReader,System.Object},Dapper.SqlMapper.Identity,System.Type,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.ReadDeferred(Int32 index, Func`2&lt;IDataReader,Object&gt; deserializer, Identity typedIdentity, Type effectiveType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirstOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>设置 GridReader.ReadFirst() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirstOrDefaultOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>设置 GridReader.ReadFirstOrDefault() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadImplOf1TypeBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Type,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.ReadImpl(Type type, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.Read(Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf1TypeArrayFuncOfObjectArrayM0StringBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Type[],System.Func{System.Object[],``0},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.Read(Type[] types, Func`2&lt;Object[],!!0&gt; map, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf3FuncOfM0M1M2StringBoolean``3(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``2}})">
+            <summary>设置 GridReader.Read(Func`3&lt;!!0,!!1,!!2&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf4FuncOfM0M1M2M3StringBoolean``4(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2,``3},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``3}})">
+            <summary>设置 GridReader.Read(Func`4&lt;!!0,!!1,!!2,!!3&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf5FuncOfM0M1M2M3M4StringBoolean``5(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2,``3,``4},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``4}})">
+            <summary>设置 GridReader.Read(Func`5&lt;!!0,!!1,!!2,!!3,!!4&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf6FuncOfM0M1M2M3M4M5StringBoolean``6(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2,``3,``4,``5},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``5}})">
+            <summary>设置 GridReader.Read(Func`6&lt;!!0,!!1,!!2,!!3,!!4,!!5&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf7FuncOfM0M1M2M3M4M5M6StringBoolean``7(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2,``3,``4,``5,``6},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``6}})">
+            <summary>设置 GridReader.Read(Func`7&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadOf8FuncOfM0M1M2M3M4M5M6M7StringBoolean``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 GridReader.Read(Func`8&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6,!!7&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingleOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>设置 GridReader.ReadSingle() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingleOrDefaultOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0})">
+            <summary>设置 GridReader.ReadSingleOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.CommandGet">
+            <summary>设置 GridReader.get_Command() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.CommandSetIDbCommand">
+            <summary>设置 GridReader.set_Command(IDbCommand value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ConstructorIDbCommandIDataReaderSqlMapperIdentitySqlMapperIParameterCallbacksBoolean">
+            <summary>设置 GridReader.GridReader(IDbCommand command, IDataReader reader, Identity identity, IParameterCallbacks callbacks, Boolean addToCache) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.Dispose">
+            <summary>设置 GridReader.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.IsConsumedGet">
+            <summary>设置 GridReader.get_IsConsumed() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.IsConsumedSetBoolean">
+            <summary>设置 GridReader.set_IsConsumed(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.NextResult">
+            <summary>设置 GridReader.NextResult() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadBoolean">
+            <summary>设置 GridReader.Read(Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirst">
+            <summary>设置 GridReader.ReadFirst() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirstOrDefault">
+            <summary>设置 GridReader.ReadFirstOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirstOrDefaultType">
+            <summary>设置 GridReader.ReadFirstOrDefault(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadFirstType">
+            <summary>设置 GridReader.ReadFirst(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingle">
+            <summary>设置 GridReader.ReadSingle() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingleOrDefault">
+            <summary>设置 GridReader.ReadSingleOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingleOrDefaultType">
+            <summary>设置 GridReader.ReadSingleOrDefault(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadSingleType">
+            <summary>设置 GridReader.ReadSingle(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.ReadTypeBoolean">
+            <summary>设置 GridReader.Read(Type type, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.MultiReadInternalOf1TypeArrayFuncOfObjectArrayM0String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Type[],System.Func{System.Object[],``0},System.String,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.MultiReadInternal(Type[] types, Func`2&lt;Object[],!!0&gt; map, String splitOn) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.MultiReadInternalOf8DelegateString``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Delegate,System.String,System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 GridReader.MultiReadInternal(Delegate func, String splitOn) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadDeferredOf1Int32FuncOfIDataReaderObjectSqlMapperIdentityType``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Int32,System.Func{System.Data.IDataReader,System.Object},Dapper.SqlMapper.Identity,System.Type,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.ReadDeferred(Int32 index, Func`2&lt;IDataReader,Object&gt; deserializer, Identity typedIdentity, Type effectiveType) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirstOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,``0})">
+            <summary>设置 GridReader.ReadFirst() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirstOrDefaultOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,``0})">
+            <summary>设置 GridReader.ReadFirstOrDefault() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadImplOf1TypeBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Type,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.ReadImpl(Type type, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf1Boolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.Read(Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf1TypeArrayFuncOfObjectArrayM0StringBoolean``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Type[],System.Func{System.Object[],``0},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``0}})">
+            <summary>设置 GridReader.Read(Type[] types, Func`2&lt;Object[],!!0&gt; map, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf3FuncOfM0M1M2StringBoolean``3(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``2}})">
+            <summary>设置 GridReader.Read(Func`3&lt;!!0,!!1,!!2&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf4FuncOfM0M1M2M3StringBoolean``4(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2,``3},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``3}})">
+            <summary>设置 GridReader.Read(Func`4&lt;!!0,!!1,!!2,!!3&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf5FuncOfM0M1M2M3M4StringBoolean``5(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2,``3,``4},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``4}})">
+            <summary>设置 GridReader.Read(Func`5&lt;!!0,!!1,!!2,!!3,!!4&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf6FuncOfM0M1M2M3M4M5StringBoolean``6(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2,``3,``4,``5},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``5}})">
+            <summary>设置 GridReader.Read(Func`6&lt;!!0,!!1,!!2,!!3,!!4,!!5&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf7FuncOfM0M1M2M3M4M5M6StringBoolean``7(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2,``3,``4,``5,``6},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``6}})">
+            <summary>设置 GridReader.Read(Func`7&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadOf8FuncOfM0M1M2M3M4M5M6M7StringBoolean``8(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,System.Func{``0,``1,``2,``3,``4,``5,``6,``7},System.String,System.Boolean,System.Collections.Generic.IEnumerable{``7}})">
+            <summary>设置 GridReader.Read(Func`8&lt;!!0,!!1,!!2,!!3,!!4,!!5,!!6,!!7&gt; func, String splitOn, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingleOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,``0})">
+            <summary>设置 GridReader.ReadSingle() 的 填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingleOrDefaultOf1``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Dapper.SqlMapper.GridReader,``0})">
+            <summary>设置 GridReader.ReadSingleOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.CommandGet">
+            <summary>设置 GridReader.get_Command() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.CommandSetIDbCommand">
+            <summary>设置 GridReader.set_Command(IDbCommand value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.Dispose">
+            <summary>设置 GridReader.Dispose() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.IsConsumedGet">
+            <summary>设置 GridReader.get_IsConsumed() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.IsConsumedSetBoolean">
+            <summary>设置 GridReader.set_IsConsumed(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.NextResult">
+            <summary>设置 GridReader.NextResult() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadBoolean">
+            <summary>设置 GridReader.Read(Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirst">
+            <summary>设置 GridReader.ReadFirst() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirstOrDefault">
+            <summary>设置 GridReader.ReadFirstOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirstOrDefaultType">
+            <summary>设置 GridReader.ReadFirstOrDefault(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadFirstType">
+            <summary>设置 GridReader.ReadFirst(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingle">
+            <summary>设置 GridReader.ReadSingle() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingleOrDefault">
+            <summary>设置 GridReader.ReadSingleOrDefault() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingleOrDefaultType">
+            <summary>设置 GridReader.ReadSingleOrDefault(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadSingleType">
+            <summary>设置 GridReader.ReadSingle(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimGridReader.AllInstances.ReadTypeBoolean">
+            <summary>设置 GridReader.Read(Type type, Boolean buffered) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimIdentity">
+            <summary>Dapper.SqlMapper+Identity 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimIdentity.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimIdentity.#ctor(Dapper.SqlMapper.Identity)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimIdentity.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimIdentity.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimIdentity.Bind(System.IEquatable{Dapper.SqlMapper.Identity})">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.ConstructorStringNullableOfCommandTypeIDbConnectionTypeTypeTypeArray">
+            <summary>设置 Identity.Identity(String sql, Nullable`1&lt;CommandType&gt; commandType, IDbConnection connection, Type type, Type parametersType, Type[] otherTypes) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.ConstructorStringNullableOfCommandTypeStringTypeTypeTypeArrayInt32">
+            <summary>设置 Identity.Identity(String sql, Nullable`1&lt;CommandType&gt; commandType, String connectionString, Type type, Type parametersType, Type[] otherTypes, Int32 gridIndex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.EqualsObject">
+            <summary>设置 Identity.Equals(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.EqualsSqlMapperIdentity">
+            <summary>设置 Identity.Equals(Identity other) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.ForDynamicParametersType">
+            <summary>设置 Identity.ForDynamicParameters(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.ForGridTypeInt32">
+            <summary>设置 Identity.ForGrid(Type primaryType, Int32 gridIndex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.ForGridTypeTypeArrayInt32">
+            <summary>设置 Identity.ForGrid(Type primaryType, Type[] otherTypes, Int32 gridIndex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.GetHashCode">
+            <summary>设置 Identity.GetHashCode() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.EqualsObject">
+            <summary>设置 Identity.Equals(Object obj) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.EqualsSqlMapperIdentity">
+            <summary>设置 Identity.Equals(Identity other) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.ForDynamicParametersType">
+            <summary>设置 Identity.ForDynamicParameters(Type type) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.ForGridTypeInt32">
+            <summary>设置 Identity.ForGrid(Type primaryType, Int32 gridIndex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.ForGridTypeTypeArrayInt32">
+            <summary>设置 Identity.ForGrid(Type primaryType, Type[] otherTypes, Int32 gridIndex) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimIdentity.AllInstances.GetHashCode01">
+            <summary>设置 Identity.GetHashCode() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimSettings">
+            <summary>Dapper.SqlMapper+Settings 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimSettings.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimSettings.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimSettings.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.ApplyNullValuesGet">
+            <summary>设置 Settings.get_ApplyNullValues() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.ApplyNullValuesSetBoolean">
+            <summary>设置 Settings.set_ApplyNullValues(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.CommandTimeoutGet">
+            <summary>设置 Settings.get_CommandTimeout() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.CommandTimeoutSetNullableOfInt32">
+            <summary>设置 Settings.set_CommandTimeout(Nullable`1&lt;Int32&gt; value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.InListStringSplitCountGet">
+            <summary>设置 Settings.get_InListStringSplitCount() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.InListStringSplitCountSetInt32">
+            <summary>设置 Settings.set_InListStringSplitCount(Int32 value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.PadListExpansionsGet">
+            <summary>设置 Settings.get_PadListExpansions() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.PadListExpansionsSetBoolean">
+            <summary>设置 Settings.set_PadListExpansions(Boolean value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.SetDefaults">
+            <summary>设置 Settings.SetDefaults() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimSettings.StaticConstructor">
+            <summary>设置 Settings.Settings() 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1">
+            <summary>Dapper.SqlMapper+StringTypeHandler`1 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.#ctor(Dapper.SqlMapper.StringTypeHandler{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.Bind(Dapper.SqlMapper.ITypeHandler)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.Constructor">
+            <summary>设置 StringTypeHandler`1.StringTypeHandler`1() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.ParseObject">
+            <summary>设置 StringTypeHandler`1.Parse(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.SetValueIDbDataParameterT0">
+            <summary>设置 StringTypeHandler`1.SetValue(IDbDataParameter parameter, !0 value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.AllInstances.ParseObject">
+            <summary>设置 StringTypeHandler`1.Parse(Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimStringTypeHandler`1.AllInstances.SetValueIDbDataParameterT0">
+            <summary>设置 StringTypeHandler`1.SetValue(IDbDataParameter parameter, !0 value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1">
+            <summary>Dapper.SqlMapper+TypeHandler`1 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.#ctor(Dapper.SqlMapper.TypeHandler{`0})">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.Bind(Dapper.SqlMapper.ITypeHandler)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.Constructor">
+            <summary>设置 TypeHandler`1.TypeHandler`1() 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.DapperSqlMapperITypeHandlerParseTypeObject">
+            <summary>设置 TypeHandler`1.Dapper.SqlMapper.ITypeHandler.Parse(Type destinationType, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.DapperSqlMapperITypeHandlerSetValueIDbDataParameterObject">
+            <summary>设置 TypeHandler`1.Dapper.SqlMapper.ITypeHandler.SetValue(IDbDataParameter parameter, Object value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.AllInstances.DapperSqlMapperITypeHandlerParseTypeObject">
+            <summary>设置 TypeHandler`1.Dapper.SqlMapper.ITypeHandler.Parse(Type destinationType, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimTypeHandler`1.AllInstances.DapperSqlMapperITypeHandlerSetValueIDbDataParameterObject">
+            <summary>设置 TypeHandler`1.Dapper.SqlMapper.ITypeHandler.SetValue(IDbDataParameter parameter, Object value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler">
+            <summary>Dapper.SqlMapper+UdtTypeHandler 的填充码类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.#ctor">
+            <summary>初始化新的填充码实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.#ctor(Dapper.SqlMapper.UdtTypeHandler)">
+            <summary>初始化给定实例的新填充码</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.BehaveAsCurrent">
+            <summary>为已填充的类型的所有方法分配“Current”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.BehaveAsNotImplemented">
+            <summary>为已填充的类型的所有方法分配“NotImplemented”行为</summary>
+        </member>
+        <member name="M:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.Bind(Dapper.SqlMapper.ITypeHandler)">
+            <summary>将接口的成员绑定到此填充码。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.Behavior">
+            <summary>为已填充的类型的所有方法分配行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.ConstructorString">
+            <summary>设置 UdtTypeHandler.UdtTypeHandler(String udtTypeName) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.DapperSqlMapperITypeHandlerParseTypeObject">
+            <summary>设置 UdtTypeHandler.Dapper.SqlMapper.ITypeHandler.Parse(Type destinationType, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.DapperSqlMapperITypeHandlerSetValueIDbDataParameterObject">
+            <summary>设置 UdtTypeHandler.Dapper.SqlMapper.ITypeHandler.SetValue(IDbDataParameter parameter, Object value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.AllInstances">
+            <summary>为所有实例成员定义填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.AllInstances.DapperSqlMapperITypeHandlerParseTypeObject">
+            <summary>设置 UdtTypeHandler.Dapper.SqlMapper.ITypeHandler.Parse(Type destinationType, Object value) 的 填充码</summary>
+        </member>
+        <member name="P:Dapper.Fakes.ShimSqlMapper.ShimUdtTypeHandler.AllInstances.DapperSqlMapperITypeHandlerSetValueIDbDataParameterObject">
+            <summary>设置 UdtTypeHandler.Dapper.SqlMapper.ITypeHandler.SetValue(IDbDataParameter parameter, Object value) 的 填充码</summary>
+        </member>
+        <member name="T:Dapper.Fakes.StubDynamicParameters">
+            <summary>Dapper.DynamicParameters 的存根类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubDynamicParameters.#ctor">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubDynamicParameters.#ctor(System.Object)">
+            <summary>初始化新实例</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubDynamicParameters.InitializeStub">
+            <summary>初始化 type StubDynamicParameters 的新实例</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubDynamicParameters.CallBase">
+            <summary>获取或设置一个值，该值指示是否应调用基方法而不调用回退行为</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubDynamicParameters.InstanceBehavior">
+            <summary>获取或设置实例行为。</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubDynamicParameters.InstanceObserver">
+            <summary>获取或设置实例观察者。</summary>
+        </member>
+        <member name="T:Dapper.Fakes.StubIWrappedDataReader">
+            <summary>Dapper.IWrappedDataReader 的存根类型</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.#ctor">
+            <summary>初始化 type StubIWrappedDataReader 的新实例</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.Close">
+            <summary>设置 IDataReader.Close() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.CommandGet">
+            <summary>设置 IWrappedDataReader.get_Command() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.DepthGet">
+            <summary>设置 IDataReader.get_Depth() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.Dispose">
+            <summary>设置 IDisposable.Dispose() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.FieldCountGet">
+            <summary>设置 IDataRecord.get_FieldCount() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetBooleanInt32">
+            <summary>设置 IDataRecord.GetBoolean(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetByteInt32">
+            <summary>设置 IDataRecord.GetByte(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetBytesInt32Int64ByteArrayInt32Int32">
+            <summary>设置 IDataRecord.GetBytes(Int32 i, Int64 fieldOffset, Byte[] buffer, Int32 bufferoffset, Int32 length) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetCharInt32">
+            <summary>设置 IDataRecord.GetChar(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetCharsInt32Int64CharArrayInt32Int32">
+            <summary>设置 IDataRecord.GetChars(Int32 i, Int64 fieldoffset, Char[] buffer, Int32 bufferoffset, Int32 length) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetDataInt32">
+            <summary>设置 IDataRecord.GetData(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetDataTypeNameInt32">
+            <summary>设置 IDataRecord.GetDataTypeName(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetDateTimeInt32">
+            <summary>设置 IDataRecord.GetDateTime(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetDecimalInt32">
+            <summary>设置 IDataRecord.GetDecimal(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetDoubleInt32">
+            <summary>设置 IDataRecord.GetDouble(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetFieldTypeInt32">
+            <summary>设置 IDataRecord.GetFieldType(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetFloatInt32">
+            <summary>设置 IDataRecord.GetFloat(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetGuidInt32">
+            <summary>设置 IDataRecord.GetGuid(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetInt16Int32">
+            <summary>设置 IDataRecord.GetInt16(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetInt32Int32">
+            <summary>设置 IDataRecord.GetInt32(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetInt64Int32">
+            <summary>设置 IDataRecord.GetInt64(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetNameInt32">
+            <summary>设置 IDataRecord.GetName(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetOrdinalString">
+            <summary>设置 IDataRecord.GetOrdinal(String name) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetSchemaTable">
+            <summary>设置 IDataReader.GetSchemaTable() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetStringInt32">
+            <summary>设置 IDataRecord.GetString(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetValueInt32">
+            <summary>设置 IDataRecord.GetValue(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.GetValuesObjectArray">
+            <summary>设置 IDataRecord.GetValues(Object[] values) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.IsClosedGet">
+            <summary>设置 IDataReader.get_IsClosed() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.IsDBNullInt32">
+            <summary>设置 IDataRecord.IsDBNull(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.ItemGetInt32">
+            <summary>设置 IDataRecord.get_Item(Int32 i) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.ItemGetString">
+            <summary>设置 IDataRecord.get_Item(String name) 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.NextResult">
+            <summary>设置 IDataReader.NextResult() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.Read">
+            <summary>设置 IDataReader.Read() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.ReaderGet">
+            <summary>设置 IWrappedDataReader.get_Reader() 的 stub</summary>
+        </member>
+        <member name="F:Dapper.Fakes.StubIWrappedDataReader.RecordsAffectedGet">
+            <summary>设置 IDataReader.get_RecordsAffected() 的 stub</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#Close">
+            <summary>设置 IDataReader.Close() 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#GetSchemaTable">
+            <summary>设置 IDataReader.GetSchemaTable() 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#NextResult">
+            <summary>设置 IDataReader.NextResult() 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#Read">
+            <summary>设置 IDataReader.Read() 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetBoolean(System.Int32)">
+            <summary>设置 IDataRecord.GetBoolean(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetByte(System.Int32)">
+            <summary>设置 IDataRecord.GetByte(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetBytes(System.Int32,System.Int64,System.Byte[],System.Int32,System.Int32)">
+            <summary>设置 IDataRecord.GetBytes(Int32 i, Int64 fieldOffset, Byte[] buffer, Int32 bufferoffset, Int32 length) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetChar(System.Int32)">
+            <summary>设置 IDataRecord.GetChar(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetChars(System.Int32,System.Int64,System.Char[],System.Int32,System.Int32)">
+            <summary>设置 IDataRecord.GetChars(Int32 i, Int64 fieldoffset, Char[] buffer, Int32 bufferoffset, Int32 length) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetData(System.Int32)">
+            <summary>设置 IDataRecord.GetData(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetDataTypeName(System.Int32)">
+            <summary>设置 IDataRecord.GetDataTypeName(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetDateTime(System.Int32)">
+            <summary>设置 IDataRecord.GetDateTime(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetDecimal(System.Int32)">
+            <summary>设置 IDataRecord.GetDecimal(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetDouble(System.Int32)">
+            <summary>设置 IDataRecord.GetDouble(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetFieldType(System.Int32)">
+            <summary>设置 IDataRecord.GetFieldType(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetFloat(System.Int32)">
+            <summary>设置 IDataRecord.GetFloat(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetGuid(System.Int32)">
+            <summary>设置 IDataRecord.GetGuid(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetInt16(System.Int32)">
+            <summary>设置 IDataRecord.GetInt16(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetInt32(System.Int32)">
+            <summary>设置 IDataRecord.GetInt32(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetInt64(System.Int32)">
+            <summary>设置 IDataRecord.GetInt64(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetName(System.Int32)">
+            <summary>设置 IDataRecord.GetName(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetOrdinal(System.String)">
+            <summary>设置 IDataRecord.GetOrdinal(String name) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetString(System.Int32)">
+            <summary>设置 IDataRecord.GetString(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetValue(System.Int32)">
+            <summary>设置 IDataRecord.GetValue(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#GetValues(System.Object[])">
+            <summary>设置 IDataRecord.GetValues(Object[] values) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#IsDBNull(System.Int32)">
+            <summary>设置 IDataRecord.IsDBNull(Int32 i) 的 存根</summary>
+        </member>
+        <member name="M:Dapper.Fakes.StubIWrappedDataReader.global::System#IDisposable#Dispose">
+            <summary>设置 IDisposable.Dispose() 的 存根</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.d::Dapper#IWrappedDataReader#Command">
+            <summary>设置 IWrappedDataReader.get_Command() 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#Depth">
+            <summary>设置 IDataReader.get_Depth() 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataRecord#FieldCount">
+            <summary>设置 IDataRecord.get_FieldCount() 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#IsClosed">
+            <summary>设置 IDataReader.get_IsClosed() 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.System#Data#IDataRecord#Item(System.Int32)">
+            <summary>设置 IDataRecord.get_Item(Int32 i) 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.System#Data#IDataRecord#Item(System.String)">
+            <summary>设置 IDataRecord.get_Item(String name) 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.d::Dapper#IWrappedDataReader#Reader">
+            <summary>设置 IWrappedDataReader.get_Reader() 的 stub</summary>
+        </member>
+        <member name="P:Dapper.Fakes.StubIWrappedDataReader.global::System#Data#IDataReader#RecordsAffected">
+            <summary>设置 IDataReader.get_RecordsAffected() 的 stub</summary>
+        </member>
+        <member name="T:Microsoft.QualityTools.Testing.Fakes.Delegates.DapperDelegates">
+            <summary>包含用于 Dapper 的存根和填充码的自定义委托</summary>
+        </member>
+    </members>
+</doc>

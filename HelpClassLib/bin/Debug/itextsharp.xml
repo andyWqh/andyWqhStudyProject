@@ -6561,13 +6561,11 @@
             <value>a Chunk</value>
         </member>
         <member name="T:iTextSharp.text.MarkedObject">
-             Wrapper that allows to add properties to 'basic building block' objects.
-             Before iText 1.5 every 'basic building block' implemented the MarkupAttributes interface.
-             By setting attributes, you could add markup to the corresponding XML and/or HTML tag.
-             This functionality was hardly used by anyone, so it was removed, and replaced by
-             the MarkedObject functionality.
-            
-             @deprecated since 5.5.9. This class is no longer used.
+            Wrapper that allows to add properties to 'basic building block' objects.
+            Before iText 1.5 every 'basic building block' implemented the MarkupAttributes interface.
+            By setting attributes, you could add markup to the corresponding XML and/or HTML tag.
+            This functionality was hardly used by anyone, so it was removed, and replaced by
+            the MarkedObject functionality.
         </member>
         <member name="F:iTextSharp.text.MarkedObject.element">
             The element that is wrapped in a MarkedObject. 
@@ -6610,13 +6608,11 @@
             @return the markupAttributes
         </member>
         <member name="T:iTextSharp.text.MarkedSection">
-             Wrapper that allows to add properties to a Chapter/Section object.
-             Before iText 1.5 every 'basic building block' implemented the MarkupAttributes interface.
-             By setting attributes, you could add markup to the corresponding XML and/or HTML tag.
-             This functionality was hardly used by anyone, so it was removed, and replaced by
-             the MarkedObject functionality.
-            
-             @deprecated since 5.5.9. This class is no longer used.
+            Wrapper that allows to add properties to a Chapter/Section object.
+            Before iText 1.5 every 'basic building block' implemented the MarkupAttributes interface.
+            By setting attributes, you could add markup to the corresponding XML and/or HTML tag.
+            This functionality was hardly used by anyone, so it was removed, and replaced by
+            the MarkedObject functionality.
         </member>
         <member name="F:iTextSharp.text.MarkedSection.title">
             This is the title of this section. 
@@ -7817,13 +7813,8 @@
         <member name="F:iTextSharp.text.pdf.BarcodeDatamatrix.DM_B256">
             Binary encodation.
         </member>
-        <member name="F:iTextSharp.text.pdf.BarcodeDatamatrix.DM_X12">
-            X21 encodation.
-        </member>
         <member name="F:iTextSharp.text.pdf.BarcodeDatamatrix.DM_X21">
-             X12 encodation.
-            
-             @deprecated Use {@link BarcodeDataMatrix#DM_X12} instead.
+            X21 encodation.
         </member>
         <member name="F:iTextSharp.text.pdf.BarcodeDatamatrix.DM_EDIFACT">
             EDIFACT encodation.
@@ -7841,7 +7832,6 @@
             Creates an instance of this class.
         </member>
         <!-- Badly formed XML comment ignored for member "M:iTextSharp.text.pdf.BarcodeDatamatrix.Generate(System.String)" -->
-        <!-- Badly formed XML comment ignored for member "M:iTextSharp.text.pdf.BarcodeDatamatrix.Generate(System.String,System.String)" -->
         <!-- Badly formed XML comment ignored for member "M:iTextSharp.text.pdf.BarcodeDatamatrix.Generate(System.Byte[],System.Int32,System.Int32)" -->
         <member name="M:iTextSharp.text.pdf.BarcodeDatamatrix.CreateImage">
             Gets an <CODE>Image</CODE> with the barcode. A successful call to the method <CODE>generate()</CODE>
@@ -9976,14 +9966,6 @@
             @return the new index subset version 
             @throws IOException
         </member>
-        <member name="M:iTextSharp.text.pdf.CFFFontSubset.BuildNewIndexAndCopyAllGSubrs(System.Int32[],System.Byte)">
-            Function builds the new offset array, object array and assembles the index.
-            used for creating the glyph and subrs subsetted index 
-            @param Offsets the offset array of the original index  
-            @param OperatorForUnusedEntries the operator inserted into the data stream for unused entries
-            @return the new index subset version 
-            @throws IOException
-        </member>
         <member name="M:iTextSharp.text.pdf.CFFFontSubset.AssembleIndex(System.Int32[],System.Byte[])">
             Function creates the new index, inserting the count,offsetsize,offset array
             and object array.
@@ -11159,9 +11141,6 @@
             @return the color name
         </member>
         <!-- Badly formed XML comment ignored for member "T:iTextSharp.text.pdf.ColumnText" -->
-        <member name="F:iTextSharp.text.pdf.ColumnText.AR_NOVOWEL">
-            Eliminate the arabic vowels 
-        </member>
         <member name="F:iTextSharp.text.pdf.ColumnText.AR_COMPOSEDTASHKEEL">
             Compose the tashkeel in the ligatures. 
         </member>
@@ -11212,6 +11191,9 @@
         </member>
         <member name="F:iTextSharp.text.pdf.ColumnText.LINE_STATUS_NOLINE">
             The line cannot fit this column position. 
+        </member>
+        <member name="F:iTextSharp.text.pdf.ColumnText.AR_NOVOWEL">
+            Eliminate the arabic vowels 
         </member>
         <member name="F:iTextSharp.text.pdf.ColumnText.maxY">
             Upper bound of the column. 
@@ -12019,11 +12001,6 @@
             @param kern the kerning to apply in normalized 1000 units
             @return <code>true</code> if the kerning was applied, <code>false</code> otherwise
         </member>
-        <member name="M:iTextSharp.text.pdf.TrueTypeFont.IsWinAnsiSupported">
-             Checks whether this font may be used with winansi encoding.
-            
-             @return <CODE>true</CODE> if the font can be correctly used with winansi encodings
-        </member>
         <member name="P:iTextSharp.text.pdf.TrueTypeFont.BaseFont">
             Gets the Postscript font name.
             @throws DocumentException the font is invalid
@@ -12662,13 +12639,6 @@
             @param ownerPassword the password or <CODE>null</CODE> for no password
             @throws IOException on error
         </member>
-        <member name="M:iTextSharp.text.pdf.PdfReader.#ctor(iTextSharp.text.pdf.RandomAccessFileOrArray,System.Byte[],System.Boolean)">
-            Reads and parses a pdf document.
-            @param raf the document location
-            @param ownerPassword the password or <CODE>null</CODE> for no password
-            @param partial indicates if the reader needs to read the document only partially. See {@link PdfReader#PdfReader(RandomAccessFileOrArray, byte[])}
-            @throws IOException on error
-        </member>
         <member name="M:iTextSharp.text.pdf.PdfReader.#ctor(iTextSharp.text.pdf.PdfReader)">
             Creates an independent duplicate.
             @param reader the <CODE>PdfReader</CODE> to duplicate
@@ -13067,13 +13037,6 @@
             No signature validation is made, use the methods availabe for that in <CODE>AcroFields</CODE>.
             </p>
             @return gets the certification level for this document
-        </member>
-        <member name="M:iTextSharp.text.pdf.PdfReader.ComputeUserPassword">
-             Computes user password if standard encryption handler is used with Standard40, Standard128 or AES128 encryption algorithm.
-            
-             @return user password, or null if not a standard encryption handler was used,
-                     if standard encryption handler was used with AES256 encryption algorithm,
-                     or if ownerPasswordUsed wasn't use to open the document.
         </member>
         <member name="P:iTextSharp.text.pdf.PdfReader.SafeFile">
             Gets a new file instance of the original PDF
@@ -15768,10 +15731,6 @@
         <member name="F:iTextSharp.text.pdf.parser.ImageRenderInfo.imageObject">
             the image object to be rendered, if it has been parsed already.  Null otherwise. 
         </member>
-        <member name="F:iTextSharp.text.pdf.parser.ImageRenderInfo.markedContentInfos">
-            Array containing marked content info for the text.
-            @since 5.5.11
-        </member>
         <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.CreateForXObject(iTextSharp.text.pdf.parser.GraphicsState,iTextSharp.text.pdf.PdfIndirectReference,iTextSharp.text.pdf.PdfDictionary)">
             Create an ImageRenderInfo object based on an XObject (this is the most common way of including an image in PDF)
             @param ctm the coordinate transformation matrix at the time the image is rendered
@@ -15779,14 +15738,7 @@
             @return the ImageRenderInfo representing the rendered XObject
             @since 5.0.1
         </member>
-        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.CreateForXObject(iTextSharp.text.pdf.parser.GraphicsState,iTextSharp.text.pdf.PdfIndirectReference,iTextSharp.text.pdf.PdfDictionary,System.Collections.ICollection)">
-            Create an ImageRenderInfo object based on an XObject (this is the most common way of including an image in PDF)
-            @param ctm the coordinate transformation matrix at the time the image is rendered
-            @param ref a reference to the image XObject
-            @return the ImageRenderInfo representing the rendered XObject
-            @since 5.0.1
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.CreateForEmbeddedImage(iTextSharp.text.pdf.parser.GraphicsState,iTextSharp.text.pdf.parser.InlineImageInfo,iTextSharp.text.pdf.PdfDictionary,System.Collections.ICollection)">
+        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.CreateForEmbeddedImage(iTextSharp.text.pdf.parser.GraphicsState,iTextSharp.text.pdf.parser.InlineImageInfo,iTextSharp.text.pdf.PdfDictionary)">
             Create an ImageRenderInfo object based on inline image data.  This is nowhere near completely thought through
             and really just acts as a placeholder.
             @param ctm the coordinate transformation matrix at the time the image is rendered
@@ -15816,24 +15768,6 @@
         <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.GetCurrentFillColor">
             @return the current fill color from the graphics state at the time this render operation occured
             @since 5.5.7
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.HasMcid(System.Int32)">
-            Checks if the image belongs to a marked content sequence
-            with a given mcid.
-            @param mcid a marked content id
-            @return true if the text is marked with this id
-            @since 5.5.11
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.HasMcid(System.Int32,System.Boolean)">
-            	     * Checks if the image belongs to a marked content sequence
-            	     * with a given mcid.
-                     * @param mcid a marked content id
-                     * @param checkTheTopmostLevelOnly indicates whether to check the topmost level of marked content stack only
-                     * @return true if the text is marked with this id
-                     * @since 5.5.11
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.ImageRenderInfo.GetMcid">
-            @return the marked content associated with the ImageRenderInfo instance.
         </member>
         <member name="T:iTextSharp.text.pdf.parser.LineSegment">
             Represents a line segment in a particular coordinate system.  This class is immutable.
@@ -15883,12 +15817,6 @@
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.#ctor">
             Creates a new text extraction renderer.
         </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.#ctor(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocationStrategy)">
-            Creates a new text extraction renderer, with a custom strategy for
-            creating new TextChunkLocation objects based on the input of the
-            TextRenderInfo.
-            @param strat the custom strategy
-        </member>
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.BeginTextBlock">
             @see com.itextpdf.text.pdf.parser.RenderListener#beginTextBlock()
         </member>
@@ -15903,13 +15831,6 @@
             @param str
             @return true if the string ends with a space character, false if the string is empty or ends with a non-space character
         </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.filterTextChunks(System.Collections.Generic.List{iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk},iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkFilter)">
-            Filters the provided list with the provided filter
-            @param textChunks a list of all TextChunks that this strategy found during processing
-            @param filter the filter to apply.  If null, filtering will be skipped.
-            @return the filtered list
-            @since 5.3.3
-        </member>
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.IsChunkAtWordBoundary(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk,iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk)">
             Determines if a space character should be inserted between a previous chunk and the current chunk.
             This method is exposed as a callback so subclasses can fine time the algorithm for determining whether a space should be inserted or not.
@@ -15919,6 +15840,13 @@
             @param chunk the new chunk being evaluated
             @param previousChunk the chunk that appeared immediately before the current chunk
             @return true if the two chunks represent different words (i.e. should have a space between them).  False otherwise.
+        </member>
+        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.filterTextChunks(System.Collections.Generic.List{iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk},iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkFilter)">
+            Filters the provided list with the provided filter
+            @param textChunks a list of all TextChunks that this strategy found during processing
+            @param filter the filter to apply.  If null, filtering will be skipped.
+            @return the filtered list
+            @since 5.3.3
         </member>
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.GetResultantText(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkFilter)">
             Gets text that meets the specified filter
@@ -15939,63 +15867,45 @@
             
             @see com.itextpdf.text.pdf.parser.RenderListener#renderText(com.itextpdf.text.pdf.parser.TextRenderInfo)
         </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.CompareInts(System.Int32,System.Int32)">
-            
-             @param int1
-             @param int2
-             @return comparison of the two integers
-        </member>
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.RenderImage(iTextSharp.text.pdf.parser.ImageRenderInfo)">
             no-op method - this renderer isn't interested in image events
             @see com.itextpdf.text.pdf.parser.RenderListener#renderImage(com.itextpdf.text.pdf.parser.ImageRenderInfo)
             @since 5.0.1
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.SameLine(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation)">
-            @param comparedLine the location to compare to
-            @return true is this location is on the the same line as the other
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.DistanceFromEndOf(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation)">
-            Computes the distance between the end of 'other' and the beginning of this chunk
-            in the direction of this chunk's orientation vector.  Note that it's a bad idea
-            to call this for chunks that aren't on the same line and orientation, but we don't
-            explicitly check for that condition for performance reasons.
-            @param other
-            @return the number of spaces between the end of 'other' and the beginning of this chunk
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.StartLocation">
-            the starting location of the chunk 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.EndLocation">
-            the ending location of the chunk 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.OrientationMagnitude">
-            the orientation as a scalar for quick sorting 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.DistPerpendicular">
-            perpendicular distance to the orientation unit vector (i.e. the Y position in an unrotated coordinate system)
-            we round to the nearest integer to handle the fuzziness of comparing floats 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.DistParallelStart">
-            distance of the start of the chunk parallel to the orientation unit vector (i.e. the X position in an unrotated coordinate system) 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.DistParallelEnd">
-            distance of the end of the chunk parallel to the orientation unit vector (i.e. the X position in an unrotated coordinate system) 
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation.CharSpaceWidth">
-            the width of a single space character in the font of the chunk 
-        </member>
-        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunkLocationDefaultImp.orientationVector">
-            unit vector in the orientation of the chunk 
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunkLocationDefaultImp.CompareTo(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkLocation)">
-            Compares based on orientation, perpendicular distance, then parallel distance
-            @see java.lang.Comparable#compareTo(java.lang.Object)
         </member>
         <member name="T:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk">
             Represents a chunk of text, it's orientation, and location relative to the orientation vector
         </member>
         <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.text">
             the text of the chunk 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.startLocation">
+            the starting location of the chunk 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.endLocation">
+            the ending location of the chunk 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.orientationVector">
+            unit vector in the orientation of the chunk 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.orientationMagnitude">
+            the orientation as a scalar for quick sorting 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.distPerpendicular">
+            perpendicular distance to the orientation unit vector (i.e. the Y position in an unrotated coordinate system)
+            we round to the nearest integer to handle the fuzziness of comparing floats 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.distParallelStart">
+            distance of the start of the chunk parallel to the orientation unit vector (i.e. the X position in an unrotated coordinate system) 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.distParallelEnd">
+            distance of the end of the chunk parallel to the orientation unit vector (i.e. the X position in an unrotated coordinate system) 
+        </member>
+        <member name="F:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.charSpaceWidth">
+            the width of a single space character in the font of the chunk 
+        </member>
+        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.SameLine(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk)">
+            @param as the location to compare to
+            @return true is this location is on the the same line as the other
         </member>
         <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.DistanceFromEndOf(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk)">
             Computes the distance between the end of 'other' and the beginning of this chunk
@@ -16009,18 +15919,23 @@
             Compares based on orientation, perpendicular distance, then parallel distance
             @see java.lang.Comparable#compareTo(java.lang.Object)
         </member>
-        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.SameLine(iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk)">
-            @param as the location to compare to
-            @return true is this location is on the the same line as the other
+        <member name="M:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.CompareInts(System.Int32,System.Int32)">
+            
+             @param int1
+             @param int2
+             @return comparison of the two integers
+        </member>
+        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.Text">
+            @return the text captured by this chunk
+        </member>
+        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.CharSpaceWidth">
+            @return the width of a single space character as rendered by this chunk
         </member>
         <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.StartLocation">
             @return the start location of the text
         </member>
         <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.EndLocation">
             @return the end location of the text
-        </member>
-        <member name="P:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.TextChunk.CharSpaceWidth">
-            @return the width of a single space character as rendered by this chunk
         </member>
         <member name="T:iTextSharp.text.pdf.parser.LocationTextExtractionStrategy.ITextChunkFilter">
             Specifies a filter for filtering {@link TextChunk} objects during text extraction 
@@ -16351,11 +16266,6 @@
             @return {@link java.util.Collection} containing all the registered operators strings
             @since 5.5.6
         </member>
-        <member name="P:iTextSharp.text.pdf.parser.PdfContentStreamProcessor.RenderListener">
-            Property for the RenderListener object maintained in this class.
-            Necessary for implementing custom ContentOperator implementations.
-            @return the renderListener
-        </member>
         <member name="T:iTextSharp.text.pdf.parser.PdfContentStreamProcessor.ResourceDictionary">
             A resource dictionary that allows stack-like behavior to support resource dictionary inheritance
         </member>
@@ -16676,21 +16586,10 @@
         <member name="F:iTextSharp.text.pdf.parser.PdfReaderContentParser.reader">
             the reader this parser will process 
         </member>
-        <!-- Badly formed XML comment ignored for member "M:iTextSharp.text.pdf.parser.PdfReaderContentParser.ProcessContent``1(System.Int32,``0,System.Collections.Generic.IDictionary{System.String,iTextSharp.text.pdf.parser.IContentOperator})" -->
         <!-- Badly formed XML comment ignored for member "M:iTextSharp.text.pdf.parser.PdfReaderContentParser.ProcessContent``1(System.Int32,``0)" -->
         <member name="T:iTextSharp.text.pdf.parser.PdfTextExtractor">
             Extracts text from a PDF file.
             @since   2.1.4
-        </member>
-        <member name="M:iTextSharp.text.pdf.parser.PdfTextExtractor.GetTextFromPage(iTextSharp.text.pdf.PdfReader,System.Int32,iTextSharp.text.pdf.parser.ITextExtractionStrategy,System.Collections.Generic.IDictionary{System.String,iTextSharp.text.pdf.parser.IContentOperator})">
-            Extract text from a specified page using an extraction strategy.
-            Also allows registration of custom ContentOperators
-            @param reader the reader to extract text from
-            @param pageNumber the page to extract text from
-            @param strategy the strategy to use for extracting text
-            @param additionalContentOperators an optional dictionary of custom IContentOperators for rendering instructions
-            @return the extracted text
-            @throws IOException if any operation fails while reading from the provided PdfReader
         </member>
         <member name="M:iTextSharp.text.pdf.parser.PdfTextExtractor.GetTextFromPage(iTextSharp.text.pdf.PdfReader,System.Int32,iTextSharp.text.pdf.parser.ITextExtractionStrategy)">
             Extract text from a specified page using an extraction strategy.
@@ -18284,19 +18183,6 @@
              @param tagContent <code>true</code> - template content will be tagged(all that will be added after), <code>false</code> - only a Do operator will be tagged.
                                taken into account only if <code>isTagged()</code> - <code>true</code>.
         </member>
-        <member name="M:iTextSharp.text.pdf.PdfContentByte.AddTemplate(iTextSharp.text.pdf.PdfTemplate,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean,System.Boolean)">
-             Adds a template to this content.
-            
-             @param template the template
-             @param a an element of the transformation matrix
-             @param b an element of the transformation matrix
-             @param c an element of the transformation matrix
-             @param d an element of the transformation matrix
-             @param e an element of the transformation matrix
-             @param f an element of the transformation matrix
-             @param tagContent <code>true</code> - template content will be tagged(all that will be added after), <code>false</code> - only a Do operator will be tagged.
-                               taken into account only if <code>isTagged()</code> - <code>true</code>.
-        </member>
         <member name="M:iTextSharp.text.pdf.PdfContentByte.AddFormXObj(iTextSharp.text.pdf.PdfStream,iTextSharp.text.pdf.PdfName,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)">
              Adds a form XObject to this content.
             
@@ -18663,11 +18549,6 @@
                                 SaveState() calls.
             @since 2.1.6
             @throws IllegalPdfSyntaxException (a runtime exception)
-        </member>
-        <member name="P:iTextSharp.text.pdf.PdfContentByte.SuppressTagging">
-            [SUP-1395] If set, prevents iText from marking content and creating structure tags for items added to this content stream.
-            (By default, iText automatically marks content using BDC/EMC operators, and adds a structure tag for the new content
-            at the end of the page.)
         </member>
         <member name="P:iTextSharp.text.pdf.PdfContentByte.InternalBuffer">
             Gets the internal buffer.
@@ -19893,7 +19774,7 @@
         <member name="M:iTextSharp.text.pdf.PdfDocument.NewPage">
              Makes a new page and sends it to the <CODE>PdfWriter</CODE>.
             
-             @return true if new page was added
+             @return a <CODE>bool</CODE>
              @throws DocumentException on error
         </member>
         <member name="M:iTextSharp.text.pdf.PdfDocument.SetPageSize(iTextSharp.text.Rectangle)">
@@ -20351,12 +20232,6 @@
         <member name="M:iTextSharp.text.pdf.PdfEncryption.SetupByUserPad(System.Byte[],System.Byte[],System.Byte[],System.Int64)">
         </member>
         <member name="M:iTextSharp.text.pdf.PdfEncryption.SetupByOwnerPassword(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Int64)">
-        </member>
-        <member name="M:iTextSharp.text.pdf.PdfEncryption.ComputeUserPassword(System.Byte[])">
-             Computes user password if standard encryption handler is used with Standard40, Standard128 or AES128 algorithm (Revision 2 - 4).
-            
-             @param ownerPassword owner password of the encrypted document.
-             @return user password, or null if revision 5 (AES256) or greater of standard encryption handler was used.
         </member>
         <member name="T:iTextSharp.text.pdf.PdfEncryptor">
             This class takes any PDF and returns exactly the same but
@@ -21424,10 +21299,6 @@
             Use ALTERNATE only in ICC profiles. It specifies an alternative color
             space, in case the primary one is not supported, for legacy purposes.
             For various types of alternate texts in Tagged PDF, use {@link #ALT}
-        </member>
-        <member name="F:iTextSharp.text.pdf.PdfName.AF">
-            A name
-            @since 5.5.8
         </member>
         <member name="F:iTextSharp.text.pdf.PdfName.ALTERNATEPRESENTATION">
             A name
@@ -24146,15 +24017,6 @@
             @param text the text to prefix the number. Can be <CODE>null</CODE> or empty
             @param firstPage the first logical page number
         </member>
-        <member name="M:iTextSharp.text.pdf.PdfPageLabels.AddPageLabel(System.Int32,System.Int32,System.String,System.Int32,System.Boolean)">
-            Adds or replaces a page label.
-            @param page the real page to start the numbering. First page is 1
-            @param numberStyle the numbering style such as LOWERCASE_ROMAN_NUMERALS
-            @param text the text to prefix the number. Can be <CODE>null</CODE> or empty
-            @param firstPage the first logical page number
-            @param includeFirstPage If true, the page label will be added to the first page if it is page 1.  
-            	 If the first page is not page 1 or this value is false, the value will not be added to the dictionary.  
-        </member>
         <member name="M:iTextSharp.text.pdf.PdfPageLabels.AddPageLabel(System.Int32,System.Int32,System.String)">
             Adds or replaces a page label. The first logical page has the default
             of 1.
@@ -26271,7 +26133,7 @@
         </member>
         <member name="M:iTextSharp.text.pdf.PdfStructureElement.#ctor(iTextSharp.text.pdf.PdfStructureTreeRoot,iTextSharp.text.pdf.PdfName)">
             Creates a new instance of PdfStructureElement.
-            @param root the structure tree root
+            @param parent the parent of this node
             @param structureType the type of structure. It may be a standard type or a user type mapped by the role map
         </member>
         <member name="M:iTextSharp.text.pdf.PdfStructureElement.GetAttribute(iTextSharp.text.pdf.PdfName)">
@@ -48703,9 +48565,6 @@
         <member name="M:iTextSharp.text.log.CounterFactory.SetCounter(iTextSharp.text.log.ICounter)">
             Setter for the counter.
         </member>
-        <member name="T:iTextSharp.text.log.DefaultCounter">
-            Implementation of the Counter interface that doesn't do anything.
-        </member>
         <member name="T:iTextSharp.text.log.ICounter">
             Interface that can be implemented if you want to count the number of documents
             that are being processed by iText.
@@ -48723,17 +48582,6 @@
         <member name="M:iTextSharp.text.log.ICounter.Written(System.Int64)">
             This method gets triggered if a file is written.
             @param l	the length of the file that was written 
-        </member>
-        <member name="M:iTextSharp.text.log.DefaultCounter.GetCounter(System.Type)">
-            @param klass
-            @return this Counter implementation
-            @see com.itextpdf.text.log.Counter#getCounter(java.lang.Class)
-        </member>
-        <member name="M:iTextSharp.text.log.DefaultCounter.Read(System.Int64)">
-            @see com.itextpdf.text.log.Counter#read(long)
-        </member>
-        <member name="M:iTextSharp.text.log.DefaultCounter.Written(System.Int64)">
-            @see com.itextpdf.text.log.Counter#written(long)
         </member>
         <member name="T:iTextSharp.text.log.ILogger">
              Logger interface
@@ -48815,17 +48663,6 @@
         </member>
         <member name="T:iTextSharp.text.log.NoOpCounter">
             Implementation of the Counter interface that doesn't do anything.
-        </member>
-        <member name="M:iTextSharp.text.log.NoOpCounter.GetCounter(System.Type)">
-            @param klass The Class asking for the Counter
-            @return the Counter instance
-            @see com.itextpdf.text.log.Counter#getCounter(java.lang.Class)
-        </member>
-        <member name="M:iTextSharp.text.log.NoOpCounter.Read(System.Int64)">
-            @see com.itextpdf.text.log.Counter#read(long)
-        </member>
-        <member name="M:iTextSharp.text.log.NoOpCounter.Written(System.Int64)">
-            @see com.itextpdf.text.log.Counter#written(long)
         </member>
         <member name="T:iTextSharp.text.log.NoOpLogger">
              The no-operation logger, it does nothing with the received logging
@@ -48991,16 +48828,6 @@
         <member name="M:iTextSharp.testutils.CompareTool.SetCompareByContentErrorsLimit(System.Int32)">
             Sets the maximum errors count which will be returned as the result of the comparison.
             @param compareByContentMaxErrorCount the errors count.
-            @return Returns this.
-        </member>
-        <member name="M:iTextSharp.testutils.CompareTool.SetFloatAbsoluteError(System.Single)">
-            Sets the absolute error parameter which will be used in floating point numbers comparison.
-            @param error the epsilon new value.
-            @return Returns this.
-        </member>
-        <member name="M:iTextSharp.testutils.CompareTool.SetFloatRelativeError(System.Single)">
-            Sets the relative error parameter which will be used in floating point numbers comparison.
-            @param error the epsilon new value.
             @return Returns this.
         </member>
         <member name="T:iTextSharp.text.pdf.fonts.cmaps.AbstractCMap">
@@ -49174,10 +49001,6 @@
         </member>
         <member name="F:iTextSharp.text.pdf.ArabicLigaturizer.DIGIT_TYPE_MASK">
             Bit mask for digit type options.
-        </member>
-        <member name="F:iTextSharp.text.pdf.ArabicLigaturizer.reverseLigatureMapTable">
-            Some fonts do not implement ligaturized variations on Arabic characters
-            e.g. Simplified Arabic has got code point 0xFEED but not 0xFEEE
         </member>
         <member name="M:iTextSharp.text.pdf.ArabicLigaturizer.IsRTL">
             Arabic is written from right to left.
@@ -49825,18 +49648,6 @@
         <member name="F:iTextSharp.text.pdf.PdfDiv.keepTogether">
             Defines if the div should be kept on one page if possible
         </member>
-        <member name="M:iTextSharp.text.pdf.PdfDiv.getActualHeight">
-            IMPROTANT NOTE: be careful with this method because it would return correct result
-            only in case if {@link PdfDiv#layout(PdfContentByte, boolean, boolean, float, float, float, float)}
-            was already called.
-            @return the actual height the div would require to layout it's content
-        </member>
-        <member name="M:iTextSharp.text.pdf.PdfDiv.getActualWidth">
-            IMPROTANT NOTE: be careful with this method because it would return correct result
-            only in case if {@link PdfDiv#layout(PdfContentByte, boolean, boolean, float, float, float, float)}
-            was already called.
-            @return the actual width the div would require to layout it's content
-        </member>
         <member name="M:iTextSharp.text.pdf.PdfDiv.SetBackgroundImage(iTextSharp.text.Image,System.Single,System.Single)">
             Image will be scaled to fit in the div occupied area.
         </member>
@@ -49905,88 +49716,6 @@
         </member>
         <member name="M:iTextSharp.text.pdf.PdfStructTreeController.AttachStructTreeRootKids(iTextSharp.text.pdf.PdfObject)">
             Add kid to structureTreeRoot from structTreeRoot
-        </member>
-        <member name="T:iTextSharp.text.pdf.security.AsymmetricAlgorithmSignature">
-             <summary>
-             This class allows you to sign with either an RSACryptoServiceProvider/DSACryptoServiceProvider from a X509Certificate2,
-             or from manually created RSACryptoServiceProvider/DSACryptoServiceProvider.
-             Depending on the certificate's CSP, sometimes you will not be able to sign with SHA-256/SHA-512 hash algorithm with 
-             RSACryptoServiceProvider taken directly from the certificate.
-             This class allows you to use a workaround in this case and sign with certificate's private key and SHA-256/SHA-512 anyway.
-             
-             An example of a workaround for CSP that does not support SHA-256/SHA-512:
-             <code>
-                        if (certificate.PrivateKey is RSACryptoServiceProvider)
-                        {                
-                            RSACryptoServiceProvider rsa = (RSACryptoServiceProvider)certificate.PrivateKey;
-            
-                            // Modified by J. Arturo
-                            // Workaround for SHA-256 and SHA-512
-            
-                            if (rsa.CspKeyContainerInfo.ProviderName == "Microsoft Strong Cryptographic Provider" ||
-                                            rsa.CspKeyContainerInfo.ProviderName == "Microsoft Enhanced Cryptographic Provider v1.0" ||
-                                            rsa.CspKeyContainerInfo.ProviderName == "Microsoft Base Cryptographic Provider v1.0")
-                            {
-                                string providerName = "Microsoft Enhanced RSA and AES Cryptographic Provider";
-                                int providerType = 24;
-            
-                                Type CspKeyContainerInfo_Type = typeof(CspKeyContainerInfo);
-            
-                                FieldInfo CspKeyContainerInfo_m_parameters = CspKeyContainerInfo_Type.GetField("m_parameters", BindingFlags.NonPublic | BindingFlags.Instance);
-                                CspParameters parameters = (CspParameters)CspKeyContainerInfo_m_parameters.GetValue(rsa.CspKeyContainerInfo);
-            
-                                var cspparams = new CspParameters(providerType, providerName, rsa.CspKeyContainerInfo.KeyContainerName);
-                                cspparams.Flags = parameters.Flags;
-            
-                                using (var rsaKey = new RSACryptoServiceProvider(cspparams))
-                                {
-                                    // use rsaKey now
-                                }
-                            }
-                            else
-                            {
-                                // Use rsa directly
-                            }
-                        }
-             </code>
-             
-             </summary>
-             <see cref="!:https://blogs.msdn.microsoft.com/shawnfa/2008/08/25/using-rsacryptoserviceprovider-for-rsa-sha256-signatures/"/>
-             <see cref="!:http://stackoverflow.com/questions/7444586/how-can-i-sign-a-file-using-rsa-and-sha256-with-net"/>
-             <see cref="!:http://stackoverflow.com/questions/5113498/can-rsacryptoserviceprovider-nets-rsa-use-sha256-for-encryption-not-signing"/>
-             <see cref="!:http://stackoverflow.com/questions/31553523/how-can-i-properly-verify-a-file-using-rsa-and-sha256-with-net"/>
-        </member>
-        <member name="T:iTextSharp.text.pdf.security.IExternalSignature">
-            Interface that needs to be implemented to do the actual signing.
-            For instance: you'll have to implement this interface if you want
-            to sign a PDF using a smart card.
-            @author Paulo Soares
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.GetHashAlgorithm">
-            Returns the hash algorithm.
-            @return  the hash algorithm (e.g. "SHA-1", "SHA-256,...")
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.GetEncryptionAlgorithm">
-            Returns the encryption algorithm used for signing.
-            @return the encryption algorithm ("RSA" or "DSA")
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.Sign(System.Byte[])">
-            Signs it using the encryption algorithm in combination with
-            the digest algorithm.
-            @param message   the message you want to be hashed and signed
-            @return  a signed message digest
-            @throws GeneralSecurityException
-        </member>
-        <member name="F:iTextSharp.text.pdf.security.AsymmetricAlgorithmSignature.hashAlgorithm">
-            The hash algorithm. 
-        </member>
-        <member name="F:iTextSharp.text.pdf.security.AsymmetricAlgorithmSignature.encryptionAlgorithm">
-            The encryption algorithm (obtained from the private key) 
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.AsymmetricAlgorithmSignature.GetEncryptionAlgorithm">
-            Returns the encryption algorithm used for signing.
-            @return the encryption algorithm ("RSA" or "DSA")
-            @see com.itextpdf.text.pdf.security.ExternalSignature#getEncryptionAlgorithm()
         </member>
         <member name="T:iTextSharp.text.pdf.security.CertificateInfo">
             Class containing static methods that allow you to get information from
@@ -50418,6 +50147,27 @@
             PdfName.SUBFILTER will have to be set.
             @param signDic the signature dictionary
         </member>
+        <member name="T:iTextSharp.text.pdf.security.IExternalSignature">
+            Interface that needs to be implemented to do the actual signing.
+            For instance: you'll have to implement this interface if you want
+            to sign a PDF using a smart card.
+            @author Paulo Soares
+        </member>
+        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.GetHashAlgorithm">
+            Returns the hash algorithm.
+            @return  the hash algorithm (e.g. "SHA-1", "SHA-256,...")
+        </member>
+        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.GetEncryptionAlgorithm">
+            Returns the encryption algorithm used for signing.
+            @return the encryption algorithm ("RSA" or "DSA")
+        </member>
+        <member name="M:iTextSharp.text.pdf.security.IExternalSignature.Sign(System.Byte[])">
+            Signs it using the encryption algorithm in combination with
+            the digest algorithm.
+            @param message   the message you want to be hashed and signed
+            @return  a signed message digest
+            @throws GeneralSecurityException
+        </member>
         <member name="T:iTextSharp.text.pdf.security.IOcspClient">
             Interface for the OCSP Client.
             @since 2.1.6
@@ -50666,42 +50416,6 @@
             @throws NoSuchAlgorithmException 
             @throws Exception 
         </member>
-        <member name="M:iTextSharp.text.pdf.security.MakeSignature.SignDetached(iTextSharp.text.pdf.PdfSignatureAppearance,iTextSharp.text.pdf.security.IExternalSignature,System.Collections.Generic.ICollection{Org.BouncyCastle.X509.X509Certificate},System.Collections.Generic.ICollection{iTextSharp.text.pdf.security.ICrlClient},iTextSharp.text.pdf.security.IOcspClient,iTextSharp.text.pdf.security.ITSAClient,System.Int32,iTextSharp.text.pdf.security.CryptoStandard,iTextSharp.text.pdf.security.SignaturePolicyInfo)">
-            Signs the document using the detached mode, CMS or CAdES equivalent.
-            @param sap the PdfSignatureAppearance
-            @param externalSignature the interface providing the actual signing
-            @param chain the certificate chain
-            @param crlList the CRL list
-            @param ocspClient the OCSP client
-            @param tsaClient the Timestamp client
-            @param provider the provider or null
-            @param estimatedSize the reserved size for the signature. It will be estimated if 0
-            @param cades true to sign CAdES equivalent PAdES-BES, false to sign CMS
-            @param signaturePolicy the signature policy (for EPES signatures)
-            @throws DocumentException 
-            @throws IOException 
-            @throws GeneralSecurityException 
-            @throws NoSuchAlgorithmException 
-            @throws Exception 
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.MakeSignature.SignDetached(iTextSharp.text.pdf.PdfSignatureAppearance,iTextSharp.text.pdf.security.IExternalSignature,System.Collections.Generic.ICollection{Org.BouncyCastle.X509.X509Certificate},System.Collections.Generic.ICollection{iTextSharp.text.pdf.security.ICrlClient},iTextSharp.text.pdf.security.IOcspClient,iTextSharp.text.pdf.security.ITSAClient,System.Int32,iTextSharp.text.pdf.security.CryptoStandard,Org.BouncyCastle.Asn1.Esf.SignaturePolicyIdentifier)">
-            Signs the document using the detached mode, CMS or CAdES equivalent.
-            @param sap the PdfSignatureAppearance
-            @param externalSignature the interface providing the actual signing
-            @param chain the certificate chain
-            @param crlList the CRL list
-            @param ocspClient the OCSP client
-            @param tsaClient the Timestamp client
-            @param provider the provider or null
-            @param estimatedSize the reserved size for the signature. It will be estimated if 0
-            @param cades true to sign CAdES equivalent PAdES-BES, false to sign CMS
-            @param signaturePolicy the signature policy (for EPES signatures)
-            @throws DocumentException 
-            @throws IOException 
-            @throws GeneralSecurityException 
-            @throws NoSuchAlgorithmException 
-            @throws Exception 
-        </member>
         <member name="M:iTextSharp.text.pdf.security.MakeSignature.ProcessCrl(Org.BouncyCastle.X509.X509Certificate,System.Collections.Generic.ICollection{iTextSharp.text.pdf.security.ICrlClient})">
             Processes a CRL list.
             @param cert	a Certificate if one of the CrlList implementations needs to retrieve the CRL URL from it.
@@ -50791,26 +50505,6 @@
             OcspClient implementation using BouncyCastle.
             @author Paulo Soares
         </member>
-        <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.#ctor">
-            Create default implemention of {@code OcspClient}.
-            Note, if you use this constructor, OCSP response will not be verified.
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.#ctor(iTextSharp.text.pdf.security.OcspVerifier)">
-            Create {@code OcspClient}
-            @param verifier will be used for response verification. {@see OCSPVerifier}.
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.GetBasicOCSPResp(Org.BouncyCastle.X509.X509Certificate,Org.BouncyCastle.X509.X509Certificate,System.String)">
-            Gets OCSP response. If {@see OCSPVerifier} was set, the response will be checked.
-        </member>
-        <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.GetEncoded(Org.BouncyCastle.X509.X509Certificate,Org.BouncyCastle.X509.X509Certificate,System.String)">
-             Gets an encoded byte array with OCSP validation. The method should not throw an exception.
-            
-             @param checkCert to certificate to check
-             @param rootCert  the parent certificate
-             @param url       to get the verification. It it's null it will be taken
-                              from the check cert or from other implementation specific source
-             @return a byte array with the validation or null if the validation could not be obtained
-        </member>
         <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.GenerateOCSPRequest(Org.BouncyCastle.X509.X509Certificate,Org.BouncyCastle.Math.BigInteger)">
             Generates an OCSP request using BouncyCastle.
             @param issuerCert	certificate of the issues
@@ -50818,6 +50512,14 @@
             @return	an OCSP request
             @throws OCSPException
             @throws IOException
+        </member>
+        <member name="M:iTextSharp.text.pdf.security.OcspClientBouncyCastle.GetEncoded(Org.BouncyCastle.X509.X509Certificate,Org.BouncyCastle.X509.X509Certificate,System.String)">
+            Gets an encoded byte array with OCSP validation. The method should not throw an exception.
+            @param checkCert to certificate to check
+            @param rootCert the parent certificate
+            @param the url to get the verification. It it's null it will be taken
+            from the check cert or from other implementation specific source
+            @return  a byte array with the validation or null if the validation could not be obtained
         </member>
         <member name="F:iTextSharp.text.pdf.security.OcspVerifier.LOGGER">
             The Logger instance 
@@ -50843,29 +50545,25 @@
         <member name="M:iTextSharp.text.pdf.security.OcspVerifier.Verify(Org.BouncyCastle.Ocsp.BasicOcspResp,Org.BouncyCastle.X509.X509Certificate,Org.BouncyCastle.X509.X509Certificate,System.DateTime)">
             Verifies a certificate against a single OCSP response
             @param ocspResp	the OCSP response
-            @param signCert  the certificate that needs to be checked
-            @param issuerCert  the certificate of CA
-            @param signDate  sign date
-            @return {@code true}, in case successful check, otherwise false.
+            @param issuerCert
+            @param signDate
+            @return
             @throws GeneralSecurityException
             @throws IOException
         </member>
         <member name="M:iTextSharp.text.pdf.security.OcspVerifier.IsValidResponse(Org.BouncyCastle.Ocsp.BasicOcspResp,Org.BouncyCastle.X509.X509Certificate)">
             Verifies if an OCSP response is genuine
-             If it doesn't verify against the issuer certificate and response's certificates, it may verify
-            using a trusted anchor or cert.
             @param ocspResp	the OCSP response
             @param issuerCert	the issuer certificate
             @throws GeneralSecurityException
             @throws IOException
         </member>
         <member name="M:iTextSharp.text.pdf.security.OcspVerifier.VerifyResponse(Org.BouncyCastle.Ocsp.BasicOcspResp,Org.BouncyCastle.X509.X509Certificate)">
-            Verifies if the response is valid.
-            If it doesn't verify against the issuer certificate and response's certificates, it may verify
-            using a trusted anchor or cert.
-            NOTE. Use {@code isValidResponse()} instead.
+            Verifies if the signature of the response is valid.
+            If it doesn't verify against the responder certificate, it may verify
+            using a trusted anchor.
             @param ocspResp	the response object
-            @param issuerCert the issuer certificate
+            @param responderCert	the certificate that may be used to sign the response
             @return	true if the response can be trusted
         </member>
         <member name="M:iTextSharp.text.pdf.security.OcspVerifier.IsSignatureValid(Org.BouncyCastle.Ocsp.BasicOcspResp,Org.BouncyCastle.X509.X509Certificate)">
@@ -51227,15 +50925,6 @@
             @return the encryption algorithm ("RSA" or "DSA")
             @see com.itextpdf.text.pdf.security.ExternalSignature#getEncryptionAlgorithm()
         </member>
-        <member name="T:iTextSharp.text.pdf.security.SignaturePolicyInfo">
-            Class that encapsulates the signature policy information
-            @author J. Arturo
-            
-            Sample:
-            
-                 SignaturePolicyInfo spi = new SignaturePolicyInfo("2.16.724.1.3.1.1.2.1.9", 
-                 "G7roucf600+f03r/o0bAOQ6WAs0=", "SHA-1", "https://sede.060.gob.es/politica_de_firma_anexo_1.pdf");
-        </member>
         <member name="T:iTextSharp.text.pdf.security.SecurityIDs">
             A list of IDs that are used by the security classes
         </member>
@@ -51329,9 +51018,6 @@
         </member>
         <member name="F:iTextSharp.text.pdf.security.TSAClientBouncyCastle.digestAlgorithm">
             Hash algorithm 
-        </member>
-        <member name="F:iTextSharp.text.pdf.security.TSAClientBouncyCastle.tsaReqPolicy">
-            TSA request policy 
         </member>
         <member name="M:iTextSharp.text.pdf.security.TSAClientBouncyCastle.#ctor(System.String)">
             Creates an instance of a TSAClient that will use BouncyCastle.
@@ -51519,9 +51205,6 @@
             Changing the version makes it extremely difficult to debug an application.
             Also, the nature of open source software is that you honor the copyright of the original creators of the software.
         </member>
-        <member name="F:iTextSharp.text.Version.AGPL">
-            String that will indicate if the AGPL version is used. 
-        </member>
         <member name="F:iTextSharp.text.Version.version">
             The iText version instance. 
         </member>
@@ -51570,10 +51253,6 @@
         <member name="P:iTextSharp.text.Version.Key">
             Returns a license key if one was provided, or null if not.
             @return a license key.
-        </member>
-        <member name="P:iTextSharp.text.Version.IsAGPLVersion">
-            Checks if the AGPL version is used.
-            @return returns true if the AGPL version is used.
         </member>
         <member name="T:iTextSharp.text.WritableDirectElement">
              An element that is not an element, it holds {@link Element#WRITABLE_DIRECT}
