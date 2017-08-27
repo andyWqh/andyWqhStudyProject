@@ -7,3 +7,7 @@ E:\andyWqh\andyWqhStudyProject\andyWqhModel\bin\Debug\andyWqhModel.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhModel\bin\Debug\andyWqhModel.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhModel\obj\Debug\andyWqhModel.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhModel\obj\Debug\andyWqhModel.pdb
+E:\andyWqhProject\andyWqhModel\bin\Debug\andyWqhModel.dll
+E:\andyWqhProject\andyWqhModel\bin\Debug\andyWqhModel.pdb
+E:\andyWqhProject\andyWqhModel\obj\Debug\andyWqhModel.dll
+E:\andyWqhProject\andyWqhModel\obj\Debug\andyWqhModel.pdb

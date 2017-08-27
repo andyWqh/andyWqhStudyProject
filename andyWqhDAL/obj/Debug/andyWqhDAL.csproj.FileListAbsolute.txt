@@ -54,8 +54,6 @@ E:\andyWqhProject\andyWqhDAL\bin\Debug\NPOI.OpenXmlFormats.dll
 E:\andyWqhProject\andyWqhDAL\bin\Debug\NPOI.OpenXml4Net.dll
 E:\andyWqhProject\andyWqhDAL\bin\Debug\andyWqhModel.pdb
 E:\andyWqhProject\andyWqhDAL\bin\Debug\HelpClassLib.pdb
-E:\andyWqhProject\andyWqhDAL\bin\Debug\Dapper.xml
-E:\andyWqhProject\andyWqhDAL\bin\Debug\NPOI.xml
 E:\andyWqhProject\andyWqhDAL\bin\Debug\Newtonsoft.Json.xml
 E:\andyWqhProject\andyWqhDAL\obj\Debug\andyWqhDAL.csprojResolveAssemblyReference.cache
 E:\andyWqhProject\andyWqhDAL\obj\Debug\andyWqhDAL.dll

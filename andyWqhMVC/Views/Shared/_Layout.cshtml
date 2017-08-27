@@ -30,14 +30,14 @@
             </div>
         </div>
     </div>
-<div class="container body-content">
-    @RenderBody()
-    <hr />
-    <footer>
-        <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
-    </footer>
-</div>
-<div>
+    <div class="container body-content" style="margin-left: 20px;">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - 我的 ASP.NET 应用程序</p>
+        </footer>
+    </div>
+<div style="margin-left: 20px;">
     <!-- 单行语句块 -->
     @{ var total = 7; }
     @{ var myMessage = "Hello World"; }
@@ -51,6 +51,7 @@
     }
     <p>The greeting is: @greetingMessage</p>
     
+    <!--使用对象和集合-->
     @{
         string[] teamMembers = { "Matt", "Joanne", "Robert", "Nancy" };
         <p>The number of names in the teamMembers array: @teamMembers.Length </p>
@@ -68,6 +69,16 @@
             <p>@reversedItem</p>
         }
     }
+    <!---定义字符串：-->
+    @{ var myString = "This is a string literal"; }
+    <p> @myString</p>
+    
+    <!---字符串包含下划线：-->
+    @{ var myFilePath = @"C:\MyFolder\"; }
+    <p>The path is: @myFilePath</p>
+    
+  
+
 </div>
 
     @Scripts.Render("~/bundles/jquery")

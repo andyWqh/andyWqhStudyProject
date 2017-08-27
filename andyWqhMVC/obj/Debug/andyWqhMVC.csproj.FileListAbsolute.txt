@@ -69,7 +69,6 @@ E:\andyWqhProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resour
 E:\andyWqhProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 E:\andyWqhProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 E:\andyWqhProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-E:\andyWqhProject\andyWqhMVC\obj\Debug\andyWqhMVC.csprojResolveAssemblyReference.cache
 E:\andyWqhProject\andyWqhMVC\obj\Debug\andyWqhMVC.dll
 E:\andyWqhProject\andyWqhMVC\obj\Debug\andyWqhMVC.pdb
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\andyWqhMVC.dll.config
@@ -148,3 +147,4 @@ E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.Mi
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.pdb
+E:\andyWqhProject\andyWqhMVC\obj\Debug\andyWqhMVC.csprojResolveAssemblyReference.cache

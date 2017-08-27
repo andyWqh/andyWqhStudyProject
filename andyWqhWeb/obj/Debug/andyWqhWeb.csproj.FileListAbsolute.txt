@@ -71,9 +71,7 @@ E:\andyWqhProject\andyWqhWeb\bin\andyWqhBLL.pdb
 E:\andyWqhProject\andyWqhWeb\bin\andyWqhModel.pdb
 E:\andyWqhProject\andyWqhWeb\bin\HelpClassLib.pdb
 E:\andyWqhProject\andyWqhWeb\bin\andyWqhDAL.pdb
-E:\andyWqhProject\andyWqhWeb\bin\NPOI.xml
 E:\andyWqhProject\andyWqhWeb\bin\Newtonsoft.Json.xml
-E:\andyWqhProject\andyWqhWeb\bin\Dapper.xml
 E:\andyWqhProject\andyWqhWeb\obj\Debug\andyWqhWeb.csprojResolveAssemblyReference.cache
 E:\andyWqhProject\andyWqhWeb\obj\Debug\andyWqhWeb.dll
 E:\andyWqhProject\andyWqhWeb\obj\Debug\andyWqhWeb.pdb
