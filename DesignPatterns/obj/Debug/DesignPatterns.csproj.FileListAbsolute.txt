@@ -14,3 +14,4 @@ E:\andyWqhProject\DesignPatterns\bin\Debug\DesignPatterns.exe
 E:\andyWqhProject\DesignPatterns\bin\Debug\DesignPatterns.pdb
 E:\andyWqhProject\DesignPatterns\obj\Debug\DesignPatterns.exe
 E:\andyWqhProject\DesignPatterns\obj\Debug\DesignPatterns.pdb
+E:\andyWqhProject\DesignPatterns\obj\Debug\DesignPatterns.csprojResolveAssemblyReference.cache

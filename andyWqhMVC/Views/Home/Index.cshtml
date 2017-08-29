@@ -29,3 +29,82 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+<!---Razor简单语法-->
+<div style="margin-left: 20px;">
+    <!-- 单行语句块 -->
+    @{ var total = 7; }
+    @{ var myMessage = "Hello World"; }
+    <!-- 内联表达式 -->
+    <p>The value of your account is: @total </p>
+    <p>The value of myMessage is: @myMessage</p>
+    <!-- 多行语句块 -->
+    @{
+        var greeting = "Welcome to our site!";
+        var weekDay = DateTime.Now.DayOfWeek; var greetingMessage = greeting + " Today is: " + weekDay;
+    }
+    <p>The greeting is: @greetingMessage</p>
+
+    <!--使用对象和集合-->
+    @{
+        string[] teamMembers = { "Matt", "Joanne", "Robert", "Nancy" };
+        <p>The number of names in the teamMembers array: @teamMembers.Length </p>
+        <p>Robert is now in position: @Array.IndexOf(teamMembers, "Robert")</p>
+        <p>The array item at position 2 (zero-based) is @teamMembers[2]</p>
+        <h3>Current order of team members in the list</h3>
+        foreach (var name in teamMembers)
+        {
+            <p>@name</p>
+        }
+        <h3>Reversed order of team members in the list</h3>
+        Array.Reverse(teamMembers);
+        foreach (var reversedItem in teamMembers)
+        {
+            <p>@reversedItem</p>
+        }
+    }
+    <!---定义字符串：-->
+    @{ var myString = "This is a string literal"; }
+    <p> @myString</p>
+
+    <!---字符串包含下划线：-->
+    @{ var myFilePath = @"C:\MyFolder\"; }
+    <p>The path is: @myFilePath</p>
+
+
+
+</div>
+
+<div style="font-weight: bold; font-size: 20px;">ASP.NET MVC输出生成Url链接详解</div>
+<div style="font-weight: bold; font-size: 20px;">一，ASP.NET MVC 在视图中生成URL</div>
+<span style="font-weight: bold; font-size:14px; display: block;">1,采用HtmlHelper方法</span>
+ @Html.ActionLink("andyWqh","About")
+<br/>
+ @Html.ActionLink("关于我们","About")
+<!--我们没有指定Controller，但是链接中还是为我们加上了，因为Html.ActionLink如果没有指定Controller默认就是指当前视图所有的相同的Controller。-->
+<br />
+@Html.ActionLink("andyWqhAbout","About","Home")
+<br />
+@Html.ActionLink("关于我们", "About", "Home", new { @class = "andyWqh", id = "link1", name = "link1", target = "_blank" })
+<br />
+@Html.ActionLink("关于我们", "About", new { controller = "Home" })
+<span style="font-weight: bold; font-size:14px; display: block;">2,直接写链接</span>
+<a href="/Home/About">andyWqh</a>
+<span style="font-weight: bold; font-size:14px; display: block;">3,ASP.NET MVC生成链接指向其它Controller</span>
+@Html.ActionLink("About this application", "Login", "Account")
+<span style="font-weight: bold; font-size:14px; display: block;">4、为ASP.NET MVC生成的链接加上其它参数</span>
+@Html.ActionLink("About this application", "About", new { id = "MyID" }) 
+<span style="font-weight: bold; font-size:14px; display: block;">5、为Html.ActionLink生成链接指定html属性</span>
+@Html.ActionLink("About this application", "Index", "Home", null,
+    new { id = "myAnchorID", @class = "andyWqh", target = "_blank" }) 
+<span style="font-weight: bold; font-size:14px; display: block;">6、生成完整的全路径Url链接</span>
+@Html.ActionLink("About this application", "Index", "Home",
+    "https", "myserver.mydomain.com", " myFragmentName",
+    new { id = "MyId" },
+    new { id = "myAnchorID", @class = "andyWqh" })
+<span style="font-weight: bold; font-size:14px; display: block;">8、生成文本的Url地址</span>
+My URL is: @Url.Action("Index", "Home", new { id = "MyId" })
+<span style="font-weight: bold; font-size:14px; display: block;">9、使用RouteLink和RouteUrl来生成链接和Url</span>
+@Html.RouteLink("Routed Link", new { controller = "Home", action = "About", id = "MyID" })
+@Url.RouteUrl(new { controller = "Home", action = "About", id = "MyID" })
+<div style="font-weight: bold; font-size: 20px;">二、ASP.NET MVC在Action方法中生成Url链接</div>
+@Html.ActionLink("ActinLink", "MyActionMethod")

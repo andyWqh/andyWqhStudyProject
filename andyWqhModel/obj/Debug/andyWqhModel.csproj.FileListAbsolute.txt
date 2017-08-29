@@ -11,3 +11,4 @@ E:\andyWqhProject\andyWqhModel\bin\Debug\andyWqhModel.dll
 E:\andyWqhProject\andyWqhModel\bin\Debug\andyWqhModel.pdb
 E:\andyWqhProject\andyWqhModel\obj\Debug\andyWqhModel.dll
 E:\andyWqhProject\andyWqhModel\obj\Debug\andyWqhModel.pdb
+E:\andyWqhProject\andyWqhModel\obj\Debug\andyWqhModel.csprojResolveAssemblyReference.cache

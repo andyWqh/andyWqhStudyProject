@@ -26,5 +26,10 @@ namespace andyWqhMVC.Controllers
 
             return View();
         }
+
+        public ActionResult MyActionMethod()
+        {
+            return RedirectToAction("Contact"); 
+        }
     }
 }
