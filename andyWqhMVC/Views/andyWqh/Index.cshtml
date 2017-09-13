@@ -1,0 +1,30 @@
+﻿@Model DateTime
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>andyWqhIndex</title>
+</head>
+<body>
+    The day is: @Model.Year
+    
+    @{
+       <div>@ViewBag.Message</div> 
+        
+        <div>@ViewBag.Description</div>
+    }
+    <div class="form-group">
+        @Html.Label("userName:") @ViewBag.UserName
+        <br/>
+        @Html.Label("serverName:") @ViewBag.ServerName
+        <br />
+        @Html.Label("clientIp:") @ViewBag.ClientIp
+        <br />
+        @Html.Label("clientName:") @ViewBag.ClientName 
+        <br />
+        @Html.Label("dateStamp:")@ViewBag.DateStamp
+    </div>
+</body>
+</html>

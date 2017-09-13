@@ -1,0 +1,9 @@
+E:\andyWqhProject\EFDBFirst\bin\Debug\EFDBFirst.exe.config
+E:\andyWqhProject\EFDBFirst\bin\Debug\EFDBFirst.exe
+E:\andyWqhProject\EFDBFirst\bin\Debug\EFDBFirst.pdb
+E:\andyWqhProject\EFDBFirst\bin\Debug\EntityFramework.dll
+E:\andyWqhProject\EFDBFirst\bin\Debug\EntityFramework.xml
+E:\andyWqhProject\EFDBFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\andyWqhProject\EFDBFirst\obj\Debug\EFDBFirst.exe
+E:\andyWqhProject\EFDBFirst\obj\Debug\EFDBFirst.pdb
+E:\andyWqhProject\EFDBFirst\obj\Debug\EFDBFirst.csprojResolveAssemblyReference.cache

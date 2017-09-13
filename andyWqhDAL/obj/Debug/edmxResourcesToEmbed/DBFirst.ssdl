@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AspNetModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--生成过程中发现错误:
+警告 6002: 表/视图“AspNetStudy.dbo.UserInfo”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+  <EntityType Name="UserInfo">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="RealName" />
+      <PropertyRef Name="Age" />
+      <PropertyRef Name="Sex" />
+      <PropertyRef Name="Email" />
+    </Key>
+    <Property Name="UserID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="RealName" Type="nvarchar" MaxLength="8" Nullable="false" />
+    <Property Name="Age" Type="tinyint" Nullable="false" />
+    <Property Name="Sex" Type="bit" Nullable="false" />
+    <Property Name="Mobile" Type="char" MaxLength="11" />
+    <Property Name="Phone" Type="char" MaxLength="11" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AspNetModelStoreContainer">
+    <EntitySet Name="UserInfo" EntityType="Self.UserInfo" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [UserInfo].[UserID] AS [UserID], 
+    [UserInfo].[UserName] AS [UserName], 
+    [UserInfo].[RealName] AS [RealName], 
+    [UserInfo].[Age] AS [Age], 
+    [UserInfo].[Sex] AS [Sex], 
+    [UserInfo].[Mobile] AS [Mobile], 
+    [UserInfo].[Phone] AS [Phone], 
+    [UserInfo].[Email] AS [Email]
+    FROM [dbo].[UserInfo] AS [UserInfo]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

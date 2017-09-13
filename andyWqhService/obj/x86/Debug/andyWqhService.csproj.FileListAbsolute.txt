@@ -12,3 +12,10 @@ E:\andyWqh\andyWqhStudyProject\andyWqhService\obj\x86\Debug\andyWqhService.Proje
 E:\andyWqh\andyWqhStudyProject\andyWqhService\obj\x86\Debug\andyWqhService.csproj.GenerateResource.Cache
 E:\andyWqh\andyWqhStudyProject\andyWqhService\obj\x86\Debug\andyWqhService.exe
 E:\andyWqh\andyWqhStudyProject\andyWqhService\obj\x86\Debug\andyWqhService.pdb
+E:\andyWqhProject\andyWqhService\bin\Debug\andyWqhService.exe
+E:\andyWqhProject\andyWqhService\bin\Debug\andyWqhService.pdb
+E:\andyWqhProject\andyWqhService\obj\x86\Debug\andyWqhService.csprojResolveAssemblyReference.cache
+E:\andyWqhProject\andyWqhService\obj\x86\Debug\andyWqhService.ProjectInstaller.resources
+E:\andyWqhProject\andyWqhService\obj\x86\Debug\andyWqhService.csproj.GenerateResource.Cache
+E:\andyWqhProject\andyWqhService\obj\x86\Debug\andyWqhService.exe
+E:\andyWqhProject\andyWqhService\obj\x86\Debug\andyWqhService.pdb

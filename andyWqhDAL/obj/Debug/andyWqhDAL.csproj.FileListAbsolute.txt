@@ -58,3 +58,10 @@ E:\andyWqhProject\andyWqhDAL\bin\Debug\Newtonsoft.Json.xml
 E:\andyWqhProject\andyWqhDAL\obj\Debug\andyWqhDAL.csprojResolveAssemblyReference.cache
 E:\andyWqhProject\andyWqhDAL\obj\Debug\andyWqhDAL.dll
 E:\andyWqhProject\andyWqhDAL\obj\Debug\andyWqhDAL.pdb
+E:\andyWqhProject\andyWqhDAL\bin\Debug\andyWqhDAL.dll.config
+E:\andyWqhProject\andyWqhDAL\bin\Debug\EntityFramework.dll
+E:\andyWqhProject\andyWqhDAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\andyWqhProject\andyWqhDAL\bin\Debug\EntityFramework.xml
+E:\andyWqhProject\andyWqhDAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\andyWqhProject\andyWqhDAL\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\andyWqhProject\andyWqhDAL\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll

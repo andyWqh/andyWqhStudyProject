@@ -147,3 +147,4 @@ E:\andyWqh\andyWqhStudyProject\andyWqhMVC\bin\zh-Hans\Microsoft.Owin.Security.Mi
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhMVC\obj\Debug\andyWqhMVC.pdb
+E:\andyWqhProject\andyWqhMVC\obj\Debug\andyWqhMVC.csprojResolveAssemblyReference.cache

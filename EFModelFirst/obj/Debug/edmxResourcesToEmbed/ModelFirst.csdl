@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelFirstContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="UserSet" EntityType="ModelFirst.User" />
+    <EntitySet Name="userCardSet" EntityType="ModelFirst.userCard" />
+    <AssociationSet Name="userCardId" Association="ModelFirst.userCardId">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="userCard" EntitySet="userCardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userName" Type="String" Nullable="false" />
+    <Property Name="realName" Type="String" Nullable="false" />
+    <Property Name="age" Type="Int32" Nullable="false" />
+    <Property Name="telPhone" Type="String" Nullable="true" />
+    <Property Name="createDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="userCard" Relationship="ModelFirst.userCardId" FromRole="User" ToRole="userCard" />
+  </EntityType>
+  <EntityType Name="userCard">
+    <Key>
+      <PropertyRef Name="cardId" />
+    </Key>
+    <Property Name="cardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cardNo" Type="String" Nullable="true" />
+    <Property Name="totalCash" Type="Decimal" Nullable="false" />
+    <Property Name="createDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="ModelFirst.userCardId" FromRole="userCard" ToRole="User" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="userCardId">
+    <End Type="ModelFirst.User" Role="User" Multiplicity="1" />
+    <End Type="ModelFirst.userCard" Role="userCard" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="userCard">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

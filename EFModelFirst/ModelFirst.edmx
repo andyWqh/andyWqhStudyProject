@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ModelFirst.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelFirstStoreContainer">
+    <EntitySet Name="UserSet" EntityType="ModelFirst.Store.UserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="userCardSet" EntityType="ModelFirst.Store.userCardSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="userCardId" Association="ModelFirst.Store.userCardId">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="userCard" EntitySet="userCardSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UserSet">
+    <Key>
+      <PropertyRef Name="userId" />
+    </Key>
+    <Property Name="userId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="realName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="age" Type="int" Nullable="false" />
+    <Property Name="telPhone" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="createDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="userCardSet">
+    <Key>
+      <PropertyRef Name="cardId" />
+    </Key>
+    <Property Name="cardId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cardNo" Type="nvarchar(max)" Nullable="true" />
+    <Property Name="totalCash" Type="decimal" Nullable="false" />
+    <Property Name="createDate" Type="datetime" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="userCardId">
+    <End Role="User" Type="ModelFirst.Store.UserSet" Multiplicity="1" />
+    <End Role="userCard" Type="ModelFirst.Store.userCardSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="userId" />
+      </Principal>
+      <Dependent Role="userCard">
+        <PropertyRef Name="userId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelFirst" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelFirstContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="UserSet" EntityType="ModelFirst.User" />
+          <EntitySet Name="userCardSet" EntityType="ModelFirst.userCard" />
+          <AssociationSet Name="userCardId" Association="ModelFirst.userCardId">
+            <End Role="User" EntitySet="UserSet" />
+            <End Role="userCard" EntitySet="userCardSet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="userId" />
+          </Key>
+          <Property Name="userId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="userName" Type="String" Nullable="false" />
+          <Property Name="realName" Type="String" Nullable="false" />
+          <Property Name="age" Type="Int32" Nullable="false" />
+          <Property Name="telPhone" Type="String" Nullable="true" />
+          <Property Name="createDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="userCard" Relationship="ModelFirst.userCardId" FromRole="User" ToRole="userCard" />
+        </EntityType>
+        <EntityType Name="userCard">
+          <Key>
+            <PropertyRef Name="cardId" />
+          </Key>
+          <Property Name="cardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cardNo" Type="String" Nullable="true" />
+          <Property Name="totalCash" Type="Decimal" Nullable="false" />
+          <Property Name="createDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="ModelFirst.userCardId" FromRole="userCard" ToRole="User" />
+          <Property Name="userId" Type="Int32" Nullable="false" />
+        </EntityType>
+        <Association Name="userCardId">
+          <End Type="ModelFirst.User" Role="User" Multiplicity="1" />
+          <End Type="ModelFirst.userCard" Role="userCard" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="User">
+              <PropertyRef Name="userId" />
+            </Principal>
+            <Dependent Role="userCard">
+              <PropertyRef Name="userId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelFirstStoreContainer" CdmEntityContainer="ModelFirstContainer">
+    <EntitySetMapping Name="UserSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.User)">
+        <MappingFragment StoreEntitySet="UserSet">
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="userName" ColumnName="userName" />
+          <ScalarProperty Name="realName" ColumnName="realName" />
+          <ScalarProperty Name="age" ColumnName="age" />
+          <ScalarProperty Name="telPhone" ColumnName="telPhone" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="userCardSet">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelFirst.userCard)">
+        <MappingFragment StoreEntitySet="userCardSet">
+          <ScalarProperty Name="cardId" ColumnName="cardId" />
+          <ScalarProperty Name="cardNo" ColumnName="cardNo" />
+          <ScalarProperty Name="totalCash" ColumnName="totalCash" />
+          <ScalarProperty Name="createDate" ColumnName="createDate" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+        <DesignerProperty Name="UseLegacyProvider" Value="True" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
