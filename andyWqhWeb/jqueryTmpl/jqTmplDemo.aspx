@@ -69,14 +69,13 @@
                 {{/each}}
             {{else}}
                 <h4>depart</h4>
-                <sapn>departinfo:</span>
                 {{each departs}}
                     <div><span>name:</span>{{= $value.name}}</div>
                 {{/each}}
             {{/if}}
         {{/each}}
         <h3>depart</h3>
-        <sapn>departinfo:</span>
+
         {{each departs}}
             <div><span>name:</span>{{= $value.name}}</div>
         {{/each}}

@@ -16,9 +16,3 @@ E:\andyWqh\andyWqhStudyProject\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib
 E:\andyWqh\andyWqhStudyProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.dll
 E:\andyWqh\andyWqhStudyProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.pdb
-E:\andyWqhProject\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll.config
-E:\andyWqhProject\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.dll
-E:\andyWqhProject\andyWqhWCFServerLib\bin\Debug\andyWqhWCFServerLib.pdb
-E:\andyWqhProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.csprojResolveAssemblyReference.cache
-E:\andyWqhProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.dll
-E:\andyWqhProject\andyWqhWCFServerLib\obj\Debug\andyWqhWCFServerLib.pdb

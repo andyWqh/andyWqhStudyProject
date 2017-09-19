@@ -51,11 +51,3 @@ E:\andyWqh\andyWqhStudyProject\HelpClassLib\bin\Debug\itextsharp.xml
 E:\andyWqh\andyWqhStudyProject\HelpClassLib\obj\Debug\HelpClassLib.csprojResolveAssemblyReference.cache
 E:\andyWqh\andyWqhStudyProject\HelpClassLib\obj\Debug\HelpClassLib.dll
 E:\andyWqh\andyWqhStudyProject\HelpClassLib\obj\Debug\HelpClassLib.pdb
-E:\andyWqhProject\HelpClassLib\bin\Debug\HelpClassLib.dll
-E:\andyWqhProject\HelpClassLib\bin\Debug\HelpClassLib.pdb
-E:\andyWqhProject\HelpClassLib\bin\Debug\andyWqhModel.dll
-E:\andyWqhProject\HelpClassLib\bin\Debug\Newtonsoft.Json.dll
-E:\andyWqhProject\HelpClassLib\bin\Debug\andyWqhModel.pdb
-E:\andyWqhProject\HelpClassLib\obj\Debug\HelpClassLib.csprojResolveAssemblyReference.cache
-E:\andyWqhProject\HelpClassLib\obj\Debug\HelpClassLib.dll
-E:\andyWqhProject\HelpClassLib\obj\Debug\HelpClassLib.pdb

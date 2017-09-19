@@ -1,9 +1,0 @@
-E:\andyWqhProject\EFModelFirst\bin\Debug\EFModelFirst.exe.config
-E:\andyWqhProject\EFModelFirst\bin\Debug\EFModelFirst.exe
-E:\andyWqhProject\EFModelFirst\bin\Debug\EFModelFirst.pdb
-E:\andyWqhProject\EFModelFirst\bin\Debug\EntityFramework.dll
-E:\andyWqhProject\EFModelFirst\bin\Debug\EntityFramework.xml
-E:\andyWqhProject\EFModelFirst\bin\Debug\zh-Hans\EntityFramework.resources.dll
-E:\andyWqhProject\EFModelFirst\obj\Debug\EFModelFirst.exe
-E:\andyWqhProject\EFModelFirst\obj\Debug\EFModelFirst.pdb
-E:\andyWqhProject\EFModelFirst\obj\Debug\EFModelFirst.csprojResolveAssemblyReference.cache
