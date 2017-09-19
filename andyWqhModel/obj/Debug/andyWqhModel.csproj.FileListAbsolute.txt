@@ -1,9 +1,0 @@
-E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\bin\Debug\andyWqhModel.dll
-E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\bin\Debug\andyWqhModel.pdb
-E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.dll
-E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.pdb
-E:\PersonalFiles\andyWqhProject\andyWqh\andyWqhModel\obj\Debug\andyWqhModel.csprojResolveAssemblyReference.cache
-E:\andyWqh\andyWqhStudyProject\andyWqhModel\bin\Debug\andyWqhModel.dll
-E:\andyWqh\andyWqhStudyProject\andyWqhModel\bin\Debug\andyWqhModel.pdb
-E:\andyWqh\andyWqhStudyProject\andyWqhModel\obj\Debug\andyWqhModel.dll
-E:\andyWqh\andyWqhStudyProject\andyWqhModel\obj\Debug\andyWqhModel.pdb
